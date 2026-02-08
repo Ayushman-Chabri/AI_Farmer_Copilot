@@ -2,11 +2,13 @@ name: TrithonEnv
 channels:
   - defaults
 dependencies:
-  - pathlib
+  - python=3.10
   - pytorch
-  - matplotlib
   - torchvision
+  - matplotlib
   - opencv
-  - pyaudio
   - streamlit
-prefix: C:\Users\Prabh\miniconda3\envs\TrithonEnv
+  - pathlib
+  - pip
+  - pip:
+      - pyaudio
