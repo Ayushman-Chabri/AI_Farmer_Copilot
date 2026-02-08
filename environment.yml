@@ -1,0 +1,12 @@
+name: TrithonEnv
+channels:
+  - defaults
+dependencies:
+  - pathlib
+  - pytorch
+  - matplotlib
+  - torchvision
+  - opencv
+  - pyaudio
+  - streamlit
+prefix: C:\Users\Prabh\miniconda3\envs\TrithonEnv
