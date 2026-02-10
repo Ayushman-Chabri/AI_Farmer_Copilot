@@ -1,0 +1,42 @@
+[
+  {
+    "crop": "Rice",
+    "recommended_techniques": [
+      "System of Rice Intensification (SRI)",
+      "Proper irrigation scheduling",
+      "Use organic compost"
+    ]
+  },
+  {
+    "crop": "Maize",
+    "recommended_techniques": [
+      "Line sowing for spacing",
+      "Seed treatment before planting",
+      "Use drip irrigation if possible"
+    ]
+  },
+  {
+    "crop": "Groundnut",
+    "recommended_techniques": [
+      "Raised bed farming",
+      "Crop rotation with pulses",
+      "Gypsum application during flowering"
+    ]
+  },
+  {
+    "crop": "Pulses",
+    "recommended_techniques": [
+      "Intercropping with cereals",
+      "Low water requirement irrigation",
+      "Use biofertilizers"
+    ]
+  },
+  {
+    "crop": "Jute",
+    "recommended_techniques": [
+      "Retting in clean water",
+      "Proper drainage maintenance",
+      "Timely harvesting"
+    ]
+  }
+]

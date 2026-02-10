@@ -1,0 +1,22 @@
+[
+  {
+    "district": "Cuttack",
+    "recommended_crops": ["Rice", "Jute"]
+  },
+  {
+    "district": "Puri",
+    "recommended_crops": ["Groundnut", "Rice"]
+  },
+  {
+    "district": "Keonjhar",
+    "recommended_crops": ["Maize", "Groundnut"]
+  },
+  {
+    "district": "Kalahandi",
+    "recommended_crops": ["Pulses", "Rice"]
+  },
+  {
+    "district": "Balasore",
+    "recommended_crops": ["Rice", "Jute"]
+  }
+]

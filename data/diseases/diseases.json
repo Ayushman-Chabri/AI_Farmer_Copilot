@@ -1,0 +1,57 @@
+[
+  {
+    "crop": "Rice",
+    "common_diseases": [
+      {
+        "name": "Blast",
+        "symptoms": "Leaf lesions and grain loss",
+        "prevention": "Use resistant varieties and avoid excess nitrogen"
+      },
+      {
+        "name": "Brown Spot",
+        "symptoms": "Brown patches on leaves",
+        "prevention": "Balanced fertilizer and fungicide spray"
+      }
+    ]
+  },
+  {
+    "crop": "Maize",
+    "common_diseases": [
+      {
+        "name": "Downy Mildew",
+        "symptoms": "White fungal growth on leaves",
+        "prevention": "Seed treatment and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Groundnut",
+    "common_diseases": [
+      {
+        "name": "Leaf Spot",
+        "symptoms": "Dark spots leading to leaf fall",
+        "prevention": "Crop rotation and fungicide spray"
+      }
+    ]
+  },
+  {
+    "crop": "Pulses",
+    "common_diseases": [
+      {
+        "name": "Wilt",
+        "symptoms": "Sudden drying of plants",
+        "prevention": "Use wilt-resistant varieties"
+      }
+    ]
+  },
+  {
+    "crop": "Jute",
+    "common_diseases": [
+      {
+        "name": "Stem Rot",
+        "symptoms": "Stem weakening and rotting",
+        "prevention": "Avoid waterlogging and ensure drainage"
+      }
+    ]
+  }
+]

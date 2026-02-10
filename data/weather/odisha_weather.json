@@ -1,0 +1,27 @@
+[
+  {
+    "district": "Cuttack",
+    "avg_rainfall_mm": 1450,
+    "temperature_c": [22, 34]
+  },
+  {
+    "district": "Puri",
+    "avg_rainfall_mm": 1500,
+    "temperature_c": [23, 33]
+  },
+  {
+    "district": "Keonjhar",
+    "avg_rainfall_mm": 1350,
+    "temperature_c": [20, 32]
+  },
+  {
+    "district": "Kalahandi",
+    "avg_rainfall_mm": 1250,
+    "temperature_c": [21, 36]
+  },
+  {
+    "district": "Balasore",
+    "avg_rainfall_mm": 1550,
+    "temperature_c": [22, 33]
+  }
+]

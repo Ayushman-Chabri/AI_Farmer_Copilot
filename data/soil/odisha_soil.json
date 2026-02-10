@@ -1,0 +1,27 @@
+[
+  {
+    "district": "Cuttack",
+    "soil_type": "Alluvial",
+    "ph_range": [6.5, 7.5]
+  },
+  {
+    "district": "Puri",
+    "soil_type": "Sandy",
+    "ph_range": [6.0, 7.0]
+  },
+  {
+    "district": "Keonjhar",
+    "soil_type": "Red Laterite",
+    "ph_range": [5.5, 6.8]
+  },
+  {
+    "district": "Kalahandi",
+    "soil_type": "Black Soil",
+    "ph_range": [6.8, 8.0]
+  },
+  {
+    "district": "Balasore",
+    "soil_type": "Alluvial",
+    "ph_range": [6.2, 7.4]
+  }
+]

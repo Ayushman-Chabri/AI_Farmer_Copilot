@@ -1,0 +1,37 @@
+[
+  {
+    "crop": "Rice",
+    "suitable_soils": ["Alluvial", "Clay"],
+    "rainfall_mm": [1200, 2000],
+    "temperature_c": [20, 35],
+    "season": "Kharif"
+  },
+  {
+    "crop": "Maize",
+    "suitable_soils": ["Red Laterite", "Sandy Loam"],
+    "rainfall_mm": [600, 1200],
+    "temperature_c": [18, 32],
+    "season": "Rabi"
+  },
+  {
+    "crop": "Groundnut",
+    "suitable_soils": ["Sandy", "Red Soil"],
+    "rainfall_mm": [500, 1000],
+    "temperature_c": [22, 35],
+    "season": "Kharif"
+  },
+  {
+    "crop": "Pulses",
+    "suitable_soils": ["Black Soil", "Loamy"],
+    "rainfall_mm": [400, 900],
+    "temperature_c": [18, 30],
+    "season": "Rabi"
+  },
+  {
+    "crop": "Jute",
+    "suitable_soils": ["Alluvial"],
+    "rainfall_mm": [1200, 1800],
+    "temperature_c": [24, 35],
+    "season": "Kharif"
+  }
+]
