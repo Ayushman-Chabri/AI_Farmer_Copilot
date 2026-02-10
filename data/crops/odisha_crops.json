@@ -1,37 +1,176 @@
 [
   {
     "crop": "Rice",
-    "suitable_soils": ["Alluvial", "Clay"],
-    "rainfall_mm": [1200, 2000],
-    "temperature_c": [20, 35],
+    "suitable_soils": [
+      "Alluvial",
+      "Clay Loam"
+    ],
+    "rainfall_mm": [
+      1000,
+      2000
+    ],
+    "temperature_c": [
+      20,
+      35
+    ],
+    "season": "Kharif"
+  },
+  {
+    "crop": "Jowar",
+    "suitable_soils": [
+      "Black",
+      "Loamy"
+    ],
+    "rainfall_mm": [
+      400,
+      800
+    ],
+    "temperature_c": [
+      18,
+      32
+    ],
+    "season": "Kharif"
+  },
+  {
+    "crop": "Bajra",
+    "suitable_soils": [
+      "Sandy",
+      "Loamy"
+    ],
+    "rainfall_mm": [
+      300,
+      700
+    ],
+    "temperature_c": [
+      20,
+      35
+    ],
     "season": "Kharif"
   },
   {
     "crop": "Maize",
-    "suitable_soils": ["Red Laterite", "Sandy Loam"],
-    "rainfall_mm": [600, 1200],
-    "temperature_c": [18, 32],
+    "suitable_soils": [
+      "Red Laterite",
+      "Sandy Loam"
+    ],
+    "rainfall_mm": [
+      600,
+      1200
+    ],
+    "temperature_c": [
+      18,
+      32
+    ],
+    "season": "Rabi"
+  },
+  {
+    "crop": "Ragi",
+    "suitable_soils": [
+      "Red",
+      "Loamy"
+    ],
+    "rainfall_mm": [
+      500,
+      1000
+    ],
+    "temperature_c": [
+      18,
+      30
+    ],
+    "season": "Kharif"
+  },
+  {
+    "crop": "Barley",
+    "suitable_soils": [
+      "Loamy"
+    ],
+    "rainfall_mm": [
+      300,
+      600
+    ],
+    "temperature_c": [
+      12,
+      25
+    ],
+    "season": "Rabi"
+  },
+  {
+    "crop": "Wheat",
+    "suitable_soils": [
+      "Alluvial",
+      "Loamy"
+    ],
+    "rainfall_mm": [
+      400,
+      900
+    ],
+    "temperature_c": [
+      10,
+      25
+    ],
     "season": "Rabi"
   },
   {
     "crop": "Groundnut",
-    "suitable_soils": ["Sandy", "Red Soil"],
-    "rainfall_mm": [500, 1000],
-    "temperature_c": [22, 35],
+    "suitable_soils": [
+      "Sandy",
+      "Red"
+    ],
+    "rainfall_mm": [
+      500,
+      1000
+    ],
+    "temperature_c": [
+      20,
+      30
+    ],
     "season": "Kharif"
   },
   {
-    "crop": "Pulses",
-    "suitable_soils": ["Black Soil", "Loamy"],
-    "rainfall_mm": [400, 900],
-    "temperature_c": [18, 30],
-    "season": "Rabi"
+    "crop": "Jute",
+    "suitable_soils": [
+      "Alluvial"
+    ],
+    "rainfall_mm": [
+      1200,
+      2500
+    ],
+    "temperature_c": [
+      24,
+      35
+    ],
+    "season": "Kharif"
   },
   {
-    "crop": "Jute",
-    "suitable_soils": ["Alluvial"],
-    "rainfall_mm": [1200, 1800],
-    "temperature_c": [24, 35],
+    "crop": "Sugarcane",
+    "suitable_soils": [
+      "Alluvial",
+      "Clay"
+    ],
+    "rainfall_mm": [
+      1000,
+      1800
+    ],
+    "temperature_c": [
+      20,
+      35
+    ],
+    "season": "Annual"
+  },
+  {
+    "crop": "Turmeric",
+    "suitable_soils": [
+      "Loamy",
+      "Red"
+    ],
+    "rainfall_mm": [
+      800,
+      1500
+    ],
+    "temperature_c": [
+      20,
+      30
+    ],
     "season": "Kharif"
   }
 ]

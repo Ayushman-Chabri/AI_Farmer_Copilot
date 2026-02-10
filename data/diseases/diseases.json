@@ -3,14 +3,29 @@
     "crop": "Rice",
     "common_diseases": [
       {
-        "name": "Blast",
-        "symptoms": "Leaf lesions and grain loss",
-        "prevention": "Use resistant varieties and avoid excess nitrogen"
-      },
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Jowar",
+    "common_diseases": [
       {
-        "name": "Brown Spot",
-        "symptoms": "Brown patches on leaves",
-        "prevention": "Balanced fertilizer and fungicide spray"
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Bajra",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
       }
     ]
   },
@@ -18,9 +33,39 @@
     "crop": "Maize",
     "common_diseases": [
       {
-        "name": "Downy Mildew",
-        "symptoms": "White fungal growth on leaves",
-        "prevention": "Seed treatment and proper spacing"
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Ragi",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Barley",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Wheat",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
       }
     ]
   },
@@ -28,19 +73,9 @@
     "crop": "Groundnut",
     "common_diseases": [
       {
-        "name": "Leaf Spot",
-        "symptoms": "Dark spots leading to leaf fall",
-        "prevention": "Crop rotation and fungicide spray"
-      }
-    ]
-  },
-  {
-    "crop": "Pulses",
-    "common_diseases": [
-      {
-        "name": "Wilt",
-        "symptoms": "Sudden drying of plants",
-        "prevention": "Use wilt-resistant varieties"
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
       }
     ]
   },
@@ -48,9 +83,29 @@
     "crop": "Jute",
     "common_diseases": [
       {
-        "name": "Stem Rot",
-        "symptoms": "Stem weakening and rotting",
-        "prevention": "Avoid waterlogging and ensure drainage"
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Sugarcane",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
+      }
+    ]
+  },
+  {
+    "crop": "Turmeric",
+    "common_diseases": [
+      {
+        "name": "General Leaf Spot",
+        "symptoms": "Spots or discoloration on leaves",
+        "prevention": "Use resistant varieties and proper spacing"
       }
     ]
   }

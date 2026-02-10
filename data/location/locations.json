@@ -1,22 +1,332 @@
 [
   {
-    "district": "Cuttack",
-    "recommended_crops": ["Rice", "Jute"]
+    "district": "Angul",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
   },
   {
-    "district": "Puri",
-    "recommended_crops": ["Groundnut", "Rice"]
-  },
-  {
-    "district": "Keonjhar",
-    "recommended_crops": ["Maize", "Groundnut"]
-  },
-  {
-    "district": "Kalahandi",
-    "recommended_crops": ["Pulses", "Rice"]
+    "district": "Balangir",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
   },
   {
     "district": "Balasore",
-    "recommended_crops": ["Rice", "Jute"]
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Bargarh",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Bhadrak",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Boudh",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Cuttack",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Deogarh",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Dhenkanal",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Gajapati",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Ganjam",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Jagatsinghpur",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Jajpur",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Jharsuguda",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Kalahandi",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Kandhamal",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Kendrapara",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Keonjhar",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Khordha",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Koraput",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Malkangiri",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Mayurbhanj",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Nabarangpur",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Nayagarh",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Nuapada",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Puri",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Rayagada",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Sambalpur",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Subarnapur",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
+  },
+  {
+    "district": "Sundargarh",
+    "recommended_crops": [
+      "Rice",
+      "Maize",
+      "Groundnut",
+      "Turmeric",
+      "Sugarcane",
+      "Ragi"
+    ]
   }
 ]

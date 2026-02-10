@@ -2,41 +2,89 @@
   {
     "crop": "Rice",
     "recommended_techniques": [
-      "System of Rice Intensification (SRI)",
-      "Proper irrigation scheduling",
-      "Use organic compost"
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Jowar",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Bajra",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
     ]
   },
   {
     "crop": "Maize",
     "recommended_techniques": [
-      "Line sowing for spacing",
-      "Seed treatment before planting",
-      "Use drip irrigation if possible"
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Ragi",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Barley",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Wheat",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
     ]
   },
   {
     "crop": "Groundnut",
     "recommended_techniques": [
-      "Raised bed farming",
-      "Crop rotation with pulses",
-      "Gypsum application during flowering"
-    ]
-  },
-  {
-    "crop": "Pulses",
-    "recommended_techniques": [
-      "Intercropping with cereals",
-      "Low water requirement irrigation",
-      "Use biofertilizers"
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
     ]
   },
   {
     "crop": "Jute",
     "recommended_techniques": [
-      "Retting in clean water",
-      "Proper drainage maintenance",
-      "Timely harvesting"
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Sugarcane",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
+    ]
+  },
+  {
+    "crop": "Turmeric",
+    "recommended_techniques": [
+      "Soil testing before sowing",
+      "Use certified seeds",
+      "Proper irrigation scheduling"
     ]
   }
 ]

@@ -1,27 +1,242 @@
 [
   {
-    "district": "Cuttack",
+    "district": "Angul",
     "soil_type": "Alluvial",
-    "ph_range": [6.5, 7.5]
+    "ph_range": [
+      5.8,
+      6.8
+    ]
   },
   {
-    "district": "Puri",
-    "soil_type": "Sandy",
-    "ph_range": [6.0, 7.0]
-  },
-  {
-    "district": "Keonjhar",
+    "district": "Balangir",
     "soil_type": "Red Laterite",
-    "ph_range": [5.5, 6.8]
-  },
-  {
-    "district": "Kalahandi",
-    "soil_type": "Black Soil",
-    "ph_range": [6.8, 8.0]
+    "ph_range": [
+      6.1,
+      7.1
+    ]
   },
   {
     "district": "Balasore",
+    "soil_type": "Coastal Sandy",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Bargarh",
+    "soil_type": "Black",
+    "ph_range": [
+      6.69,
+      7.69
+    ]
+  },
+  {
+    "district": "Bhadrak",
+    "soil_type": "Laterite",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Boudh",
+    "soil_type": "Loamy",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Cuttack",
     "soil_type": "Alluvial",
-    "ph_range": [6.2, 7.4]
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Deogarh",
+    "soil_type": "Red Laterite",
+    "ph_range": [
+      6.69,
+      7.69
+    ]
+  },
+  {
+    "district": "Dhenkanal",
+    "soil_type": "Coastal Sandy",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Gajapati",
+    "soil_type": "Black",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Ganjam",
+    "soil_type": "Laterite",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Jagatsinghpur",
+    "soil_type": "Loamy",
+    "ph_range": [
+      6.69,
+      7.69
+    ]
+  },
+  {
+    "district": "Jajpur",
+    "soil_type": "Alluvial",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Jharsuguda",
+    "soil_type": "Red Laterite",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Kalahandi",
+    "soil_type": "Coastal Sandy",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Kandhamal",
+    "soil_type": "Black",
+    "ph_range": [
+      6.699,
+      7.699
+    ]
+  },
+  {
+    "district": "Kendrapara",
+    "soil_type": "Laterite",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Keonjhar",
+    "soil_type": "Loamy",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Khordha",
+    "soil_type": "Alluvial",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Koraput",
+    "soil_type": "Red Laterite",
+    "ph_range": [
+      6.699,
+      7.699
+    ]
+  },
+  {
+    "district": "Malkangiri",
+    "soil_type": "Coastal Sandy",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Mayurbhanj",
+    "soil_type": "Black",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Nabarangpur",
+    "soil_type": "Laterite",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Nayagarh",
+    "soil_type": "Loamy",
+    "ph_range": [
+      6.69,
+      7.69
+    ]
+  },
+  {
+    "district": "Nuapada",
+    "soil_type": "Alluvial",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Puri",
+    "soil_type": "Red Laterite",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
+  },
+  {
+    "district": "Rayagada",
+    "soil_type": "Coastal Sandy",
+    "ph_range": [
+      6.395,
+      7.395
+    ]
+  },
+  {
+    "district": "Sambalpur",
+    "soil_type": "Black",
+    "ph_range": [
+      6.69,
+      7.69
+    ]
+  },
+  {
+    "district": "Subarnapur",
+    "soil_type": "Laterite",
+    "ph_range": [
+      5.8,
+      6.8
+    ]
+  },
+  {
+    "district": "Sundargarh",
+    "soil_type": "Loamy",
+    "ph_range": [
+      6.1,
+      7.1
+    ]
   }
 ]

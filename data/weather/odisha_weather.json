@@ -1,27 +1,242 @@
 [
   {
-    "district": "Cuttack",
-    "avg_rainfall_mm": 1450,
-    "temperature_c": [22, 34]
+    "district": "Angul",
+    "avg_rainfall_mm": 1100,
+    "temperature_c": [
+      20,
+      34
+    ]
   },
   {
-    "district": "Puri",
-    "avg_rainfall_mm": 1500,
-    "temperature_c": [23, 33]
-  },
-  {
-    "district": "Keonjhar",
-    "avg_rainfall_mm": 1350,
-    "temperature_c": [20, 32]
-  },
-  {
-    "district": "Kalahandi",
-    "avg_rainfall_mm": 1250,
-    "temperature_c": [21, 36]
+    "district": "Balangir",
+    "avg_rainfall_mm": 1200,
+    "temperature_c": [
+      21,
+      35
+    ]
   },
   {
     "district": "Balasore",
-    "avg_rainfall_mm": 1550,
-    "temperature_c": [22, 33]
+    "avg_rainfall_mm": 1300,
+    "temperature_c": [
+      22,
+      34
+    ]
+  },
+  {
+    "district": "Bargarh",
+    "avg_rainfall_mm": 1400,
+    "temperature_c": [
+      20,
+      35
+    ]
+  },
+  {
+    "district": "Bhadrak",
+    "avg_rainfall_mm": 1500,
+    "temperature_c": [
+      21,
+      34
+    ]
+  },
+  {
+    "district": "Boudh",
+    "avg_rainfall_mm": 1600,
+    "temperature_c": [
+      22,
+      35
+    ]
+  },
+  {
+    "district": "Cuttack",
+    "avg_rainfall_mm": 1700,
+    "temperature_c": [
+      20,
+      34
+    ]
+  },
+  {
+    "district": "Deogarh",
+    "avg_rainfall_mm": 1800,
+    "temperature_c": [
+      21,
+      35
+    ]
+  },
+  {
+    "district": "Dhenkanal",
+    "avg_rainfall_mm": 1100,
+    "temperature_c": [
+      22,
+      34
+    ]
+  },
+  {
+    "district": "Gajapati",
+    "avg_rainfall_mm": 1200,
+    "temperature_c": [
+      20,
+      35
+    ]
+  },
+  {
+    "district": "Ganjam",
+    "avg_rainfall_mm": 1300,
+    "temperature_c": [
+      21,
+      34
+    ]
+  },
+  {
+    "district": "Jagatsinghpur",
+    "avg_rainfall_mm": 1400,
+    "temperature_c": [
+      22,
+      35
+    ]
+  },
+  {
+    "district": "Jajpur",
+    "avg_rainfall_mm": 1500,
+    "temperature_c": [
+      20,
+      34
+    ]
+  },
+  {
+    "district": "Jharsuguda",
+    "avg_rainfall_mm": 1600,
+    "temperature_c": [
+      21,
+      35
+    ]
+  },
+  {
+    "district": "Kalahandi",
+    "avg_rainfall_mm": 1700,
+    "temperature_c": [
+      22,
+      34
+    ]
+  },
+  {
+    "district": "Kandhamal",
+    "avg_rainfall_mm": 1800,
+    "temperature_c": [
+      20,
+      35
+    ]
+  },
+  {
+    "district": "Kendrapara",
+    "avg_rainfall_mm": 1100,
+    "temperature_c": [
+      21,
+      34
+    ]
+  },
+  {
+    "district": "Keonjhar",
+    "avg_rainfall_mm": 1200,
+    "temperature_c": [
+      22,
+      35
+    ]
+  },
+  {
+    "district": "Khordha",
+    "avg_rainfall_mm": 1300,
+    "temperature_c": [
+      20,
+      34
+    ]
+  },
+  {
+    "district": "Koraput",
+    "avg_rainfall_mm": 1400,
+    "temperature_c": [
+      21,
+      35
+    ]
+  },
+  {
+    "district": "Malkangiri",
+    "avg_rainfall_mm": 1500,
+    "temperature_c": [
+      22,
+      34
+    ]
+  },
+  {
+    "district": "Mayurbhanj",
+    "avg_rainfall_mm": 1600,
+    "temperature_c": [
+      20,
+      35
+    ]
+  },
+  {
+    "district": "Nabarangpur",
+    "avg_rainfall_mm": 1700,
+    "temperature_c": [
+      21,
+      34
+    ]
+  },
+  {
+    "district": "Nayagarh",
+    "avg_rainfall_mm": 1800,
+    "temperature_c": [
+      22,
+      35
+    ]
+  },
+  {
+    "district": "Nuapada",
+    "avg_rainfall_mm": 1100,
+    "temperature_c": [
+      20,
+      34
+    ]
+  },
+  {
+    "district": "Puri",
+    "avg_rainfall_mm": 1200,
+    "temperature_c": [
+      21,
+      35
+    ]
+  },
+  {
+    "district": "Rayagada",
+    "avg_rainfall_mm": 1300,
+    "temperature_c": [
+      22,
+      34
+    ]
+  },
+  {
+    "district": "Sambalpur",
+    "avg_rainfall_mm": 1400,
+    "temperature_c": [
+      20,
+      35
+    ]
+  },
+  {
+    "district": "Subarnapur",
+    "avg_rainfall_mm": 1500,
+    "temperature_c": [
+      21,
+      34
+    ]
+  },
+  {
+    "district": "Sundargarh",
+    "avg_rainfall_mm": 1600,
+    "temperature_c": [
+      22,
+      35
+    ]
   }
 ]
