@@ -1,176 +1,175 @@
-[
+{
+  "profile_id":"odisha_crops",
+  "region":"odisha",
+  "crops":[
+
   {
-    "crop": "Rice",
-    "suitable_soils": [
-      "Alluvial",
-      "Clay Loam"
-    ],
-    "rainfall_mm": [
-      1000,
-      2000
-    ],
-    "temperature_c": [
-      20,
-      35
-    ],
-    "season": "Kharif"
+    "crop_id":"paddy",
+    "display_name": "Rice",
+    "suitable_soils": ["alluvial","clayey"],
+    "rainfall_range": "high",
+    "temperature_pref":"warm",
+    "season": ["kharif"],
+    "topography":["flat","lowland"],
+    "additional_sensitivities":["waterlogging","fungal_disease"] 
   },
+
   {
-    "crop": "Jowar",
-    "suitable_soils": [
-      "Black",
-      "Loamy"
-    ],
-    "rainfall_mm": [
-      400,
-      800
-    ],
-    "temperature_c": [
-      18,
-      32
-    ],
-    "season": "Kharif"
+    "crop_id": "sugarcane",
+    "display_name":"Sugarcane",
+    "suitable_soils": ["alluvial","loamy"],
+    "rainfall_range":"moderate_to_high",
+    "temperature_pref":"warm",
+    "season": ["kharif","annual"],
+    "topography":["flat"],
+    "additional":["water_stress","nutrient_depletion"]
+
   },
+
   {
-    "crop": "Bajra",
-    "suitable_soils": [
-      "Sandy",
-      "Loamy"
-    ],
-    "rainfall_mm": [
-      300,
-      700
-    ],
-    "temperature_c": [
-      20,
-      35
-    ],
-    "season": "Kharif"
+      "crop_id": "maize",
+      "display_name": "Maize",
+      "suitable_soils": ["loamy", "well_drained"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "moderate_to_warm",
+      "season": ["kharif", "rabi"],
+      "topography": ["flat", "gentle_slope"],
+      "additional_sensitivities": ["waterlogging"]
   },
+
   {
-    "crop": "Maize",
-    "suitable_soils": [
-      "Red Laterite",
-      "Sandy Loam"
-    ],
-    "rainfall_mm": [
-      600,
-      1200
-    ],
-    "temperature_c": [
-      18,
-      32
-    ],
-    "season": "Rabi"
+      "crop_id": "mung",
+      "display_name": "Mung (Green Gram)",
+      "suitable_soils": ["sandy_loam", "loamy"],
+      "rainfall_range": "low_to_moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif", "summer"],
+      "topography": ["upland", "well_drained"],
+      "additional_sensitivities": ["excess_rainfall"]
   },
+
   {
-    "crop": "Ragi",
-    "suitable_soils": [
-      "Red",
-      "Loamy"
-    ],
-    "rainfall_mm": [
-      500,
-      1000
-    ],
-    "temperature_c": [
-      18,
-      30
-    ],
-    "season": "Kharif"
+      "crop_id": "groundnut",
+      "display_name": "Groundnut",
+      "suitable_soils": ["sandy_loam", "well_drained"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif"],
+      "topography": ["upland", "gentle_slope"],
+      "additional_sensitivities": ["waterlogging", "soil_compaction"]
   },
+
   {
-    "crop": "Barley",
-    "suitable_soils": [
-      "Loamy"
-    ],
-    "rainfall_mm": [
-      300,
-      600
-    ],
-    "temperature_c": [
-      12,
-      25
-    ],
-    "season": "Rabi"
+      "crop_id": "sweet_potato",
+      "display_name": "Sweet Potato",
+      "suitable_soils": ["sandy_loam", "loamy"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif", "rabi"],
+      "topography": ["upland"],
+      "additional_sensitivities": ["excess_moisture"]
   },
+
   {
-    "crop": "Wheat",
-    "suitable_soils": [
-      "Alluvial",
-      "Loamy"
-    ],
-    "rainfall_mm": [
-      400,
-      900
-    ],
-    "temperature_c": [
-      10,
-      25
-    ],
-    "season": "Rabi"
+      "crop_id": "onion",
+      "display_name": "Onion",
+      "suitable_soils": ["loamy", "well_drained"],
+      "rainfall_range": "low_to_moderate",
+      "temperature_pref": "moderate",
+      "season": ["rabi"],
+      "topography": ["flat"],
+      "additional_sensitivities": ["waterlogging", "humidity"]
   },
+  
   {
-    "crop": "Groundnut",
-    "suitable_soils": [
-      "Sandy",
-      "Red"
-    ],
-    "rainfall_mm": [
-      500,
-      1000
-    ],
-    "temperature_c": [
-      20,
-      30
-    ],
-    "season": "Kharif"
+      "crop_id": "potato",
+      "display_name": "Potato",
+      "suitable_soils": ["loamy", "well_drained"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "cool_to_moderate",
+      "season": ["rabi"],
+      "topography": ["flat"],
+      "additional_sensitivities": ["heat_stress", "waterlogging"]
   },
+
   {
-    "crop": "Jute",
-    "suitable_soils": [
-      "Alluvial"
-    ],
-    "rainfall_mm": [
-      1200,
-      2500
-    ],
-    "temperature_c": [
-      24,
-      35
-    ],
-    "season": "Kharif"
+      "crop_id": "biri",
+      "display_name": "Biri (Black Gram)",
+      "suitable_soils": ["loamy", "clayey"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif"],
+      "topography": ["upland", "flat"],
+      "additional_sensitivities": ["excess_rainfall"]
   },
+
   {
-    "crop": "Sugarcane",
-    "suitable_soils": [
-      "Alluvial",
-      "Clay"
-    ],
-    "rainfall_mm": [
-      1000,
-      1800
-    ],
-    "temperature_c": [
-      20,
-      35
-    ],
-    "season": "Annual"
+      "crop_id": "arhar",
+      "display_name": "Arhar (Red Gram)",
+      "suitable_soils": ["loamy", "well_drained"],
+      "rainfall_range": "low_to_moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif"],
+      "topography": ["upland"],
+      "additional_sensitivities": ["waterlogging"]
   },
+  
   {
-    "crop": "Turmeric",
-    "suitable_soils": [
-      "Loamy",
-      "Red"
-    ],
-    "rainfall_mm": [
-      800,
-      1500
-    ],
-    "temperature_c": [
-      20,
-      30
-    ],
-    "season": "Kharif"
+      "crop_id": "ragi",
+      "display_name": "Ragi",
+      "suitable_soils": ["red_soil", "well_drained"],
+      "rainfall_range": "low_to_moderate",
+      "temperature_pref": "moderate",
+      "season": ["kharif"],
+      "topography": ["upland", "gentle_slope"],
+      "additional_sensitivities": ["excess_moisture"]
+  },
+  
+  {
+      "crop_id": "kulthi",
+      "display_name": "Kulthi (Horse Gram)",
+      "suitable_soils": ["poor_soil", "red_soil"],
+      "rainfall_range": "low",
+      "temperature_pref": "warm",
+      "season": ["rabi"],
+      "topography": ["upland"],
+      "additional_sensitivities": ["excess_rainfall"]
+  },
+
+  {
+      "crop_id": "cotton",
+      "display_name": "Cotton",
+      "suitable_soils": ["black_soil", "well_drained"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif"],
+      "topography": ["flat"],
+      "additional_sensitivities": ["water_stress"]
+  },
+
+  {
+      "crop_id": "sesamum",
+      "display_name": "Sesamum (Til)",
+      "suitable_soils": ["sandy_loam", "well_drained"],
+      "rainfall_range": "low_to_moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif"],
+      "topography": ["upland"],
+      "additional_sensitivities": ["waterlogging"]
+  },
+
+  {
+      "crop_id": "cowpea",
+      "display_name": "Cowpea",
+      "suitable_soils": ["sandy_loam", "loamy"],
+      "rainfall_range": "moderate",
+      "temperature_pref": "warm",
+      "season": ["kharif", "summer"],
+      "topography": ["upland", "flat"],
+      "additional_sensitivities": ["excess_rainfall"]
   }
-]
+  ]
+
+  
+  
+}

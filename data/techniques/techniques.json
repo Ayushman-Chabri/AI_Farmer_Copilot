@@ -1,90 +1,263 @@
-[
-  {
-    "crop": "Rice",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
+{
+  "profile_id": "cropping_techniques",
+  
+
+  "techniques": {
+
+    "paddy": [
+      {
+        "technique_id": "alternate_wetting_drying",
+        "display_name": "Alternate Wetting and Drying (AWD)",
+        "use_when": ["water_scarcity", "excess_water_retention"],
+        "purpose": "Optimize water usage and reduce waterlogging risk",
+        "risk_reduction": ["fungal_disease", "nutrient_leaching"]
+      },
+      {
+        "technique_id": "line_transplanting",
+        "display_name": "Line Transplanting",
+        "use_when": ["dense_planting", "high_humidity"],
+        "purpose": "Improve air circulation and reduce disease spread",
+        "risk_reduction": ["leaf_blight"]
+      }
+    ],
+
+    "sugarcane": [
+      {
+        "technique_id": "proper_sett_treatment",
+        "display_name": "Sett Treatment Before Planting",
+        "use_when": ["fungal_risk", "previous_crop_infection"],
+        "purpose": "Reduce early fungal infection",
+        "risk_reduction": ["red_rot"]
+      },
+      {
+        "technique_id": "ridge_and_furrow_irrigation",
+        "display_name": "Ridge and Furrow Irrigation",
+        "use_when": ["waterlogging", "heavy_rainfall"],
+        "purpose": "Improve drainage and root aeration",
+        "risk_reduction": ["root_decay"]
+      }
+    ],
+
+    "maize": [
+      {
+        "technique_id": "crop_rotation_maize",
+        "display_name": "Crop Rotation with Legumes",
+        "use_when": ["soil_nutrient_depletion"],
+        "purpose": "Restore soil fertility naturally",
+        "risk_reduction": ["leaf_spot"]
+      },
+      {
+        "technique_id": "timely_earthing_up",
+        "display_name": "Earthing Up",
+        "use_when": ["lodging_risk", "heavy_rainfall"],
+        "purpose": "Strengthen plant base",
+        "risk_reduction": ["stem_borer_maize"]
+      }
+    ],
+
+    "mung": [
+      {
+        "technique_id": "early_sowing_mung",
+        "display_name": "Early Sowing",
+        "use_when": ["vector_presence", "high_temperature"],
+        "purpose": "Escape peak pest infestation period",
+        "risk_reduction": ["yellow_mosaic"]
+      },
+      {
+        "technique_id": "proper_spacing_mung",
+        "display_name": "Maintain Proper Plant Spacing",
+        "use_when": ["high_humidity"],
+        "purpose": "Improve airflow and reduce fungal spread",
+        "risk_reduction": ["powdery_mildew"]
+      }
+    ],
+
+    "groundnut": [
+      {
+        "technique_id": "raised_bed_cultivation",
+        "display_name": "Raised Bed Cultivation",
+        "use_when": ["waterlogging", "heavy_rainfall"],
+        "purpose": "Improve drainage and reduce root rot",
+        "risk_reduction": ["collar_rot"]
+      },
+      {
+        "technique_id": "mulching_groundnut",
+        "display_name": "Mulching",
+        "use_when": ["drought_stress"],
+        "purpose": "Retain soil moisture",
+        "risk_reduction": ["leaf_rust"]
+      }
+    ],
+
+    "sweet_potato": [
+      {
+        "technique_id": "vine_cutting_selection",
+        "display_name": "Healthy Vine Selection",
+        "use_when": ["previous_crop_disease"],
+        "purpose": "Reduce early infection spread",
+        "risk_reduction": ["leaf_spot_sweet"]
+      },
+      {
+        "technique_id": "field_sanitation",
+        "display_name": "Field Sanitation",
+        "use_when": ["pest_presence"],
+        "purpose": "Reduce weevil breeding grounds",
+        "risk_reduction": ["weevil_infestation"]
+      }
+    ],
+
+    "onion": [
+      {
+        "technique_id": "proper_drainage_onion",
+        "display_name": "Ensure Proper Field Drainage",
+        "use_when": ["waterlogging", "high_humidity"],
+        "purpose": "Reduce fungal disease risk",
+        "risk_reduction": ["purple_blotch"]
+      },
+      {
+        "technique_id": "timely_weeding_onion",
+        "display_name": "Timely Weeding",
+        "use_when": ["pest_presence"],
+        "purpose": "Reduce pest habitat",
+        "risk_reduction": ["thrips"]
+      }
+    ],
+
+    "potato": [
+      {
+        "technique_id": "certified_seed_potato",
+        "display_name": "Use Certified Seed Tubers",
+        "use_when": ["previous_infection"],
+        "purpose": "Reduce disease transmission",
+        "risk_reduction": ["late_blight"]
+      },
+      {
+        "technique_id": "proper_ridge_formation",
+        "display_name": "Ridge Formation",
+        "use_when": ["waterlogging", "cool_humid_conditions"],
+        "purpose": "Improve drainage",
+        "risk_reduction": ["early_blight"]
+      }
+    ],
+
+    "biri": [
+      {
+        "technique_id": "timely_sowing_biri",
+        "display_name": "Timely Sowing",
+        "use_when": ["vector_presence"],
+        "purpose": "Reduce viral disease exposure",
+        "risk_reduction": ["leaf_crinkle"]
+      },
+      {
+        "technique_id": "crop_residue_removal",
+        "display_name": "Crop Residue Removal",
+        "use_when": ["fungal_risk"],
+        "purpose": "Prevent fungal survival in soil",
+        "risk_reduction": ["powdery_mildew_biri"]
+      }
+    ],
+
+    "arhar": [
+      {
+        "technique_id": "deep_ploughing",
+        "display_name": "Deep Ploughing",
+        "use_when": ["soil_pathogen_presence"],
+        "purpose": "Reduce fungal pathogen load",
+        "risk_reduction": ["wilt"]
+      },
+      {
+        "technique_id": "trap_cropping",
+        "display_name": "Trap Cropping",
+        "use_when": ["pest_presence"],
+        "purpose": "Reduce pod borer attack",
+        "risk_reduction": ["pod_borer"]
+      }
+    ],
+
+    "ragi": [
+      {
+        "technique_id": "field_sanitation_ragi",
+        "display_name": "Field Sanitation",
+        "use_when": ["high_humidity"],
+        "purpose": "Reduce fungal spores",
+        "risk_reduction": ["blast"]
+      },
+      {
+        "technique_id": "balanced_spacing_ragi",
+        "display_name": "Balanced Plant Spacing",
+        "use_when": ["dense_planting"],
+        "purpose": "Reduce disease spread",
+        "risk_reduction": ["smut"]
+      }
+    ],
+
+    "kulthi": [
+      {
+        "technique_id": "low_density_sowing",
+        "display_name": "Low Density Sowing",
+        "use_when": ["high_humidity"],
+        "purpose": "Reduce fungal growth",
+        "risk_reduction": ["anthracnose"]
+      },
+      {
+        "technique_id": "improved_drainage_kulthi",
+        "display_name": "Improve Field Drainage",
+        "use_when": ["waterlogging"],
+        "purpose": "Prevent root rot",
+        "risk_reduction": ["root_rot"]
+      }
+    ],
+
+    "cotton": [
+      {
+        "technique_id": "pheromone_traps",
+        "display_name": "Install Pheromone Traps",
+        "use_when": ["pest_presence"],
+        "purpose": "Monitor and reduce bollworm infestation",
+        "risk_reduction": ["pink_bollworm"]
+      },
+      {
+        "technique_id": "proper_spacing_cotton",
+        "display_name": "Maintain Proper Spacing",
+        "use_when": ["high_humidity"],
+        "purpose": "Reduce boll rot spread",
+        "risk_reduction": ["boll_rot"]
+      }
+    ],
+
+    "sesamum": [
+      {
+        "technique_id": "early_sowing_sesamum",
+        "display_name": "Early Sowing",
+        "use_when": ["vector_presence"],
+        "purpose": "Reduce viral infection risk",
+        "risk_reduction": ["phyllody"]
+      },
+      {
+        "technique_id": "crop_rotation_sesamum",
+        "display_name": "Crop Rotation",
+        "use_when": ["soil_pathogen_presence"],
+        "purpose": "Break disease cycle",
+        "risk_reduction": ["leaf_spot_sesamum"]
+      }
+    ],
+
+    "cowpea": [
+      {
+        "technique_id": "resistant_variety_cowpea",
+        "display_name": "Use Resistant Varieties",
+        "use_when": ["viral_risk"],
+        "purpose": "Reduce mosaic virus impact",
+        "risk_reduction": ["mosaic"]
+      },
+      {
+        "technique_id": "timely_harvest_cowpea",
+        "display_name": "Timely Harvesting",
+        "use_when": ["high_humidity"],
+        "purpose": "Reduce fungal infection",
+        "risk_reduction": ["rust"]
+      }
     ]
-  },
-  {
-    "crop": "Jowar",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Bajra",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Maize",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Ragi",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Barley",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Wheat",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Groundnut",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Jute",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Sugarcane",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
-  },
-  {
-    "crop": "Turmeric",
-    "recommended_techniques": [
-      "Soil testing before sowing",
-      "Use certified seeds",
-      "Proper irrigation scheduling"
-    ]
+
   }
-]
+}

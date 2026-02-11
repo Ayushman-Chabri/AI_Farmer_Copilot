@@ -1,0 +1,168 @@
+{
+  "profile_id": "odisha_state_policies",
+  "region": "odisha",
+  "policies": [
+
+    {
+      "policy_id": "odisha_cm_kisan_yojana",
+      "display_name": "CM Kisan Yojana",
+      "category": "Income Support & Welfare",
+      "description": "Provides direct financial assistance to small and marginal farmers and landless agriculture households in Odisha.",
+      "benefits": [
+        "Direct cash transfer to eligible farmers’ bank accounts",
+        "Subsidies for agricultural inputs (seeds, fertilizers, pesticides)"
+      ],
+      "eligibility": [
+        "Odisha resident small and marginal farmers",
+        "Landless agriculture households"
+      ],
+      "application": "Register via the CM Kisan portal or Odisha agriculture department channels"
+    },
+
+    {
+      "policy_id": "odisha_kalia_scheme",
+      "display_name": "Odisha Kalia Scheme",
+      "category": "Farmer Welfare & Support",
+      "description": "Krushak Assistance for Livelihood and Income Augmentation (KALIA) provides financial and risk mitigation support to cultivators and vulnerable agricultural households.",
+      "benefits": [
+        "Financial assistance per season for small & marginal farmers",
+        "Interest-free crop loans",
+        "Life insurance cover for farmers and landless agriculture laborers"
+      ],
+      "eligibility": [
+        "Small and marginal farmer families",
+        "Landless agricultural households",
+        "Vulnerable (SC/ST/other) farming households"
+      ],
+      "application": "Scheme enrollment through agriculture department registration systems"
+    },
+
+    {
+      "policy_id": "odisha_dbf_farm_implements",
+      "display_name": "DBT Farm Implements Subsidy Scheme",
+      "category": "Mechanisation Support",
+      "description": "Provides direct subsidy for purchasing farm implements and machinery to improve productivity and reduce drudgery.",
+      "benefits": [
+        "Direct Benefit Transfer subsidy for implements like tillers, harvesters, etc.",
+        "Assistance for farm mechanisation investments"
+      ],
+      "eligibility": [
+        "Registered farmers in Odisha",
+        "Priority to small and marginal farmers"
+      ],
+      "application": "Apply via DBT farm implements portal or agriculture extension offices"
+    },
+
+    {
+      "policy_id": "mukhyamantri_krushi_udyog_yojana",
+      "display_name": "Mukhyamantri Krushi Udyog Yojana (MKUY)",
+      "category": "Agro-Enterprise & Processing",
+      "description": "Subsidy scheme to promote agro-based industries and value addition enterprises in the state.",
+      "benefits": [
+        "Capital subsidies for agro-business units",
+        "Support for food processing and allied enterprises"
+      ],
+      "eligibility": [
+        "Agro entrepreneurs in Odisha",
+        "FPOs and agricultural entities expanding processing capacity"
+      ],
+      "application": "Submit project proposal to Odisha agriculture or industry departments"
+    },
+
+    {
+      "policy_id": "odisha_samruddha_krushak_yojana",
+      "display_name": "Odisha Samruddha Krushak Yojana",
+      "category": "Minimum Support & Price Security",
+      "description": "Provides minimum assured procurement of paddy at fixed support price plus state bonus, improving farmers’ income security.",
+      "benefits": [
+        "State-assured procurement price for paddy",
+        "Electronic weighing and prompt payment within 48 hours"
+      ],
+      "eligibility": [
+        "Odisha farmers with paddy produce",
+        "Must sell paddy through authorized procurement centers"
+      ],
+      "application": "Register with procurement system and mandi registration required"
+    },
+
+    {
+      "policy_id": "odisha_solar_pump_support",
+      "display_name": "Solar Pump Support Scheme",
+      "category": "Irrigation & Renewable Energy",
+      "description": "Financial assistance for farmers to install solar photovoltaic irrigation pumps, reducing dependence on grid electricity and diesel.",
+      "benefits": [
+        "Subsidy support to make solar pump affordable",
+        "Increases irrigation potential in off-grid areas"
+      ],
+      "eligibility": [
+        "Odisha farmers with irrigation needs",
+        "Priority for remote areas with poor electricity supply"
+      ],
+      "application": "Register through Odisha Renewable Energy or agriculture extension schemes"
+    },
+
+    {
+      "policy_id": "odisha_fpo_support_scheme",
+      "display_name": "Odisha FPO Support Scheme",
+      "category": "Farmer Producer Organisation (FPO) Support",
+      "description": "Encourages the formation and strengthening of Farmer Producer Organisations with technical and financial assistance.",
+      "benefits": [
+        "Assistance to register and run FPOs",
+        "Support in marketing and capacity building"
+      ],
+      "eligibility": [
+        "Farmer groups and cooperatives in Odisha",
+        "FPOs aligned with agriculture development goals"
+      ],
+      "application": "Apply through Odisha agriculture department FPO portals"
+    },
+
+    {
+      "policy_id": "odisha_watershed_development",
+      "display_name": "Watershed Development & Soil Conservation Scheme",
+      "category": "Natural Resource Management",
+      "description": "Assists farmers through watershed creation and soil conservation works to improve moisture retention and combat erosion.",
+      "benefits": [
+        "Technical and financial support for soil and water conservation",
+        "Creation of check dams, contour trenches, and farm bunds"
+      ],
+      "eligibility": [
+        "Farmers in watershed priority areas",
+        "Landholders in erosion-prone regions"
+      ],
+      "application": "Engage through district watershed committees and agriculture offices"
+    },
+
+    {
+      "policy_id": "odisha_livestock_subsidy_scheme",
+      "display_name": "Odisha Livestock Subsidy Schemes",
+      "category": "Livestock Support",
+      "description": "Support to farmers for rearing livestock, poultry and related units, including broiler and layer farming subsidies.",
+      "benefits": [
+        "Subsidies for broiler and layer poultry units",
+        "Support for livestock enhancement activities"
+      ],
+      "eligibility": [
+        "Livestock-rearing farmers in Odisha",
+        "Priority to small farmers and women self-help groups"
+      ],
+      "application": "Apply through Odisha livestock or agriculture departments"
+    },
+
+    {
+      "policy_id": "odisha_interest_subsidy_loan_support",
+      "display_name": "Odisha Interest Subsidy and Agricultural Loan Support",
+      "category": "Credit Support",
+      "description": "Provides interest subsidy on crop loans up to a defined limit for farmers, making borrowing more affordable. This may include zero-interest loans up to defined amounts.",
+      "benefits": [
+        "Interest subsidy on agricultural loans",
+        "Affordable credit up to set limits"
+      ],
+      "eligibility": [
+        "Farmers taking loans from cooperative banks or PACS"
+      ],
+      "application": "Avail loans from approved banks with subsidy application"
+    }
+
+  ]
+}

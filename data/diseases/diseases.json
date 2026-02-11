@@ -1,112 +1,323 @@
-[
-  {
-    "crop": "Rice",
-    "common_diseases": [
+{
+  "profile_id": "diseases",
+  
+
+  "diseases": {
+
+    "paddy": [
       {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
+        "disease_id": "leaf_blight",
+        "display_name": "Leaf Blight",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity", "waterlogging"],
+        "early_symptoms": ["brown_spots", "leaf_yellowing"],
+        "severity_progression": "gradual_spread",
+        "associated_risks": ["yield_reduction"]
+      },
+      {
+        "disease_id": "stem_borer",
+        "display_name": "Stem Borer",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["dead_heart", "white_ear_heads"],
+        "severity_progression": "rapid_damage",
+        "associated_risks": ["crop_failure"]
+      }
+    ],
+
+    "sugarcane": [
+      {
+        "disease_id": "red_rot",
+        "display_name": "Red Rot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_moisture"],
+        "early_symptoms": ["reddening_of_internal_tissues", "wilting"],
+        "severity_progression": "internal_decay",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "top_borer",
+        "display_name": "Top Borer",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["dead_shoots", "boring_holes"],
+        "severity_progression": "structural_damage",
+        "associated_risks": ["stunted_growth"]
+      }
+    ],
+
+    "maize": [
+      {
+        "disease_id": "leaf_spot",
+        "display_name": "Leaf Spot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["moderate_humidity"],
+        "early_symptoms": ["brown_lesions", "leaf_discoloration"],
+        "severity_progression": "localized_spread",
+        "associated_risks": ["yield_reduction"]
+      },
+      {
+        "disease_id": "stem_borer_maize",
+        "display_name": "Stem Borer",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["stem_holes", "wilting"],
+        "severity_progression": "rapid_damage",
+        "associated_risks": ["plant_lodging"]
+      }
+    ],
+
+    "mung": [
+      {
+        "disease_id": "yellow_mosaic",
+        "display_name": "Yellow Mosaic",
+        "disease_type": "viral",
+        "favorable_conditions": ["vector_presence", "warm_temperature"],
+        "early_symptoms": ["yellow_mottling", "leaf_distortion"],
+        "severity_progression": "rapid_spread",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "powdery_mildew",
+        "display_name": "Powdery Mildew",
+        "disease_type": "fungal",
+        "favorable_conditions": ["moderate_humidity"],
+        "early_symptoms": ["white_powdery_patches"],
+        "severity_progression": "surface_spread",
+        "associated_risks": ["reduced_photosynthesis"]
+      }
+    ],
+
+    "groundnut": [
+      {
+        "disease_id": "leaf_rust",
+        "display_name": "Leaf Rust",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["rusty_spots"],
+        "severity_progression": "leaf_drop",
+        "associated_risks": ["yield_reduction"]
+      },
+      {
+        "disease_id": "collar_rot",
+        "display_name": "Collar Rot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["waterlogging"],
+        "early_symptoms": ["stem_decay", "wilting"],
+        "severity_progression": "plant_death",
+        "associated_risks": ["crop_failure"]
+      }
+    ],
+
+    "sweet_potato": [
+      {
+        "disease_id": "leaf_spot_sweet",
+        "display_name": "Leaf Spot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["dark_spots"],
+        "severity_progression": "leaf_damage",
+        "associated_risks": ["reduced_growth"]
+      },
+      {
+        "disease_id": "weevil_infestation",
+        "display_name": "Sweet Potato Weevil",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["root_damage", "holes_in_tubers"],
+        "severity_progression": "tuber_loss",
+        "associated_risks": ["market_rejection"]
+      }
+    ],
+
+    "onion": [
+      {
+        "disease_id": "purple_blotch",
+        "display_name": "Purple Blotch",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["purple_lesions"],
+        "severity_progression": "leaf_decay",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "thrips",
+        "display_name": "Thrips Infestation",
+        "disease_type": "pest",
+        "favorable_conditions": ["dry_conditions"],
+        "early_symptoms": ["silver_streaks", "leaf_curling"],
+        "severity_progression": "surface_damage",
+        "associated_risks": ["reduced_bulb_size"]
+      }
+    ],
+
+    "potato": [
+      {
+        "disease_id": "late_blight",
+        "display_name": "Late Blight",
+        "disease_type": "fungal",
+        "favorable_conditions": ["cool_temperature", "high_humidity"],
+        "early_symptoms": ["water_soaked_spots"],
+        "severity_progression": "rapid_spread",
+        "associated_risks": ["crop_failure"]
+      },
+      {
+        "disease_id": "early_blight",
+        "display_name": "Early Blight",
+        "disease_type": "fungal",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["concentric_rings_on_leaves"],
+        "severity_progression": "leaf_drop",
+        "associated_risks": ["yield_reduction"]
+      }
+    ],
+
+    "biri": [
+      {
+        "disease_id": "leaf_crinkle",
+        "display_name": "Leaf Crinkle",
+        "disease_type": "viral",
+        "favorable_conditions": ["vector_presence"],
+        "early_symptoms": ["leaf_distortion"],
+        "severity_progression": "growth_reduction",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "powdery_mildew_biri",
+        "display_name": "Powdery Mildew",
+        "disease_type": "fungal",
+        "favorable_conditions": ["moderate_humidity"],
+        "early_symptoms": ["white_patches"],
+        "severity_progression": "leaf_damage",
+        "associated_risks": ["reduced_photosynthesis"]
+      }
+    ],
+
+    "arhar": [
+      {
+        "disease_id": "wilt",
+        "display_name": "Wilt",
+        "disease_type": "fungal",
+        "favorable_conditions": ["soil_pathogen_presence"],
+        "early_symptoms": ["sudden_wilting"],
+        "severity_progression": "plant_death",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "pod_borer",
+        "display_name": "Pod Borer",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["damaged_pods"],
+        "severity_progression": "seed_loss",
+        "associated_risks": ["market_loss"]
+      }
+    ],
+
+    "ragi": [
+      {
+        "disease_id": "blast",
+        "display_name": "Blast",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["leaf_lesions"],
+        "severity_progression": "neck_break",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "smut",
+        "display_name": "Smut",
+        "disease_type": "fungal",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["black_powdery_mass"],
+        "severity_progression": "grain_damage",
+        "associated_risks": ["quality_loss"]
+      }
+    ],
+
+    "kulthi": [
+      {
+        "disease_id": "anthracnose",
+        "display_name": "Anthracnose",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["dark_spots"],
+        "severity_progression": "stem_damage",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "root_rot",
+        "display_name": "Root Rot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["waterlogging"],
+        "early_symptoms": ["root_decay"],
+        "severity_progression": "plant_death",
+        "associated_risks": ["crop_failure"]
+      }
+    ],
+
+    "cotton": [
+      {
+        "disease_id": "boll_rot",
+        "display_name": "Boll Rot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["rotting_bolls"],
+        "severity_progression": "fiber_loss",
+        "associated_risks": ["market_loss"]
+      },
+      {
+        "disease_id": "pink_bollworm",
+        "display_name": "Pink Bollworm",
+        "disease_type": "pest",
+        "favorable_conditions": ["warm_temperature"],
+        "early_symptoms": ["damaged_bolls"],
+        "severity_progression": "fiber_damage",
+        "associated_risks": ["yield_loss"]
+      }
+    ],
+
+    "sesamum": [
+      {
+        "disease_id": "phyllody",
+        "display_name": "Phyllody",
+        "disease_type": "viral",
+        "favorable_conditions": ["vector_presence"],
+        "early_symptoms": ["flower_abnormality"],
+        "severity_progression": "yield_loss",
+        "associated_risks": ["crop_failure"]
+      },
+      {
+        "disease_id": "leaf_spot_sesamum",
+        "display_name": "Leaf Spot",
+        "disease_type": "fungal",
+        "favorable_conditions": ["moderate_humidity"],
+        "early_symptoms": ["brown_spots"],
+        "severity_progression": "leaf_drop",
+        "associated_risks": ["yield_reduction"]
+      }
+    ],
+
+    "cowpea": [
+      {
+        "disease_id": "mosaic",
+        "display_name": "Mosaic Virus",
+        "disease_type": "viral",
+        "favorable_conditions": ["vector_presence"],
+        "early_symptoms": ["mottled_leaves"],
+        "severity_progression": "growth_stunting",
+        "associated_risks": ["yield_loss"]
+      },
+      {
+        "disease_id": "rust",
+        "display_name": "Rust",
+        "disease_type": "fungal",
+        "favorable_conditions": ["high_humidity"],
+        "early_symptoms": ["rust_colored_spots"],
+        "severity_progression": "leaf_drop",
+        "associated_risks": ["yield_reduction"]
       }
     ]
-  },
-  {
-    "crop": "Jowar",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Bajra",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Maize",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Ragi",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Barley",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Wheat",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Groundnut",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Jute",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Sugarcane",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
-  },
-  {
-    "crop": "Turmeric",
-    "common_diseases": [
-      {
-        "name": "General Leaf Spot",
-        "symptoms": "Spots or discoloration on leaves",
-        "prevention": "Use resistant varieties and proper spacing"
-      }
-    ]
+
   }
-]
+}

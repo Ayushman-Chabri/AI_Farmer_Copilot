@@ -1,0 +1,88 @@
+{
+  "profile_id": "odisha_referrals",
+  "region": "odisha",
+
+  "referrals": [
+
+    {
+      "referral_id": "agriculture_dept_odisha",
+      "display_name": "Odisha Agriculture Department",
+      "contact": "1551",
+      "type": "state_agriculture_helpline",
+      "purpose": "General agriculture advisory and support for farmers"
+    },
+
+    {
+      "referral_id": "fisheries_dept_odisha",
+      "display_name": "Odisha Fisheries & Animal Resources Development Helpline",
+      "contact": "0674-2565745",
+      "type": "state_animal_fisheries_support",
+      "purpose": "Support for fisheries, livestock and poultry farmers"
+    },
+
+    {
+      "referral_id": "pm_kisan_helpline",
+      "display_name": "PM-KISAN Helpline",
+      "contact": "011-23381092",
+      "type": "national_scheme_support",
+      "purpose": "Support and grievance redressal for Pradhan Mantri Kisan Samman Nidhi beneficiaries"
+    },
+
+    {
+      "referral_id": "pmfby_helpline",
+      "display_name": "PMFBY Crop Insurance Helpline",
+      "contact": "1800-233-1022",
+      "type": "national_scheme_support",
+      "purpose": "Crop insurance support including enrollment issues and claim status"
+    },
+
+    {
+      "referral_id": "soil_health_card_help",
+      "display_name": "Soil Health Card Scheme Helpline",
+      "contact": "155321",
+      "type": "national_agri_support",
+      "purpose": "Support for Soil Health Card related queries"
+    },
+
+    {
+      "referral_id": "pmksy_helpdesk",
+      "display_name": "PMKSY Support Desk",
+      "contact": "1800-180-1551",
+      "type": "national_scheme_support",
+      "purpose": "Assistance for Pradhan Mantri Krishi Sinchayee Yojana and irrigation support"
+    },
+
+    {
+      "referral_id": "agri_infra_fund_support",
+      "display_name": "Agriculture Infrastructure Fund Support",
+      "contact": "1800-1200-234",
+      "type": "national_infrastructure_support",
+      "purpose": "Support for queries on Agriculture Infrastructure Fund loans"
+    },
+
+    {
+      "referral_id": "odisha_fpo_support",
+      "display_name": "Odisha FPO Support Desk",
+      "contact": "0674-2300723",
+      "type": "state_fpo_support",
+      "purpose": "Support for Farmer Producer Organisations and farm collectives"
+    },
+
+    {
+      "referral_id": "agri_extension_centers",
+      "display_name": "Krishi Vigyan Kendra (KVK) – Odisha",
+      "contact": "List available on official KVK portal",
+      "type": "extension_centers",
+      "purpose": "Local training, demonstration and expert field visits"
+    },
+
+    {
+      "referral_id": "agri_trade_markets",
+      "display_name": "Agricultural Produce Market Committee (APMC)",
+      "contact": "Check local district office",
+      "type": "market_linkage_support",
+      "purpose": "Assistance with market access and mandi pricing"
+    }
+
+  ]
+}

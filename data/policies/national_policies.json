@@ -1,0 +1,78 @@
+{
+  "profile_id": "national_policies",
+  
+  "policies": [
+
+    {
+      "policy_id": "pm_kisan_samman_nidhi",
+      "display_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "category": "Income Support",
+      "description": "Provides direct income support to small and marginal farmers to help meet agricultural and domestic needs.",
+      "benefits": [
+        "₹6,000 per year paid in three equal installments",
+        "Cash transfers directly to farmer bank accounts"
+      ],
+      "eligibility": [
+        "All small and marginal landholding farmers",
+        "Must have linked bank account and Aadhaar"
+      ],
+      "application": "Apply on PM-KISAN portal or through Common Service Centres"
+    },
+
+    {
+      "policy_id": "pradhan_mantri_fasal_bima_yojana",
+      "display_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "category": "Crop Insurance",
+      "description": "A comprehensive crop insurance scheme that protects farmers against crop losses due to natural calamities, pests, and diseases throughout the crop cycle.",
+      "benefits": [
+        "Affordable premiums (e.g., 2% for Kharif, 1.5% for Rabi)",
+        "Covers yield loss, post-harvest losses and localized calamities"
+      ],
+      "eligibility": [
+        "All farmers growing notified crops in notified areas",
+        "Enrollment before crop season begins"
+      ],
+      "application": "Enroll through insurance providers or agriculture department"
+    },
+
+    {
+      "policy_id": "soil_health_card_scheme",
+      "display_name": "Soil Health Card Scheme",
+      "category": "Soil Management & Productivity",
+      "description": "Provides farmers with soil nutrient status information and fertilizer recommendations based on soil testing.",
+      "benefits": [
+        "Crop-wise soil nutrient analysis",
+        "Recommendations to improve soil health and fertilizer usage"
+      ],
+      "eligibility": ["All farmers with land holdings"],
+      "application": "Soil samples taken by agriculture department and card issued"
+    },
+
+    {
+      "policy_id": "pradhan_mantri_krishi_sinchayee_yojana",
+      "display_name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+      "category": "Irrigation & Water Use Efficiency",
+      "description": "A scheme to improve irrigation coverage and promote efficient water usage through micro-irrigation and water conservation.",
+      "benefits": [
+        "Financial assistance for micro-irrigation systems",
+        "Improved water use efficiency and reduced dependency on monsoon"
+      ],
+      "eligibility": ["Farmers investing in irrigation improvements"],
+      "application": "Apply via state agriculture department"
+    },
+
+    {
+      "policy_id": "agriculture_infrastructure_fund",
+      "display_name": "Agriculture Infrastructure Fund",
+      "category": "Infrastructure & Credit Support",
+      "description": "Provides loans for building post-harvest infrastructure, supply chain facilities and other agricultural projects.",
+      "benefits": [
+        "Low-interest credit for infrastructure creation",
+        "Support for warehousing, cold chains, processing units"
+      ],
+      "eligibility": ["Farmers, FPOs, agri-enterprises"],
+      "application": "Submit proposal on the Agriculture Infrastructure Fund portal"
+    }
+
+  ]
+}

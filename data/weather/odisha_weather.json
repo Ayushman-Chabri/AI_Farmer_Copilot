@@ -1,242 +1,68 @@
-[
-  {
-    "district": "Angul",
-    "avg_rainfall_mm": 1100,
-    "temperature_c": [
-      20,
-      34
-    ]
+{
+  "profile_id": "odisha_weather",
+  "region": "odisha",
+  "climate_zone": "tropical_monsoon",
+
+  "season_profiles": {
+
+    "kharif": {
+      "months": ["june", "july", "august", "september"],
+      "temperature_band": "warm_to_hot",
+      "rainfall_level": "high",
+      "humidity_level": "high",
+      "common_risks": [
+        "flooding",
+        "waterlogging",
+        "fungal_disease_outbreak"
+      ]
+    },
+
+    "rabi": {
+      "months": ["october", "november", "december", "january"],
+      "temperature_band": "cool_to_moderate",
+      "rainfall_level": "low",
+      "humidity_level": "moderate",
+      "common_risks": [
+        "cold_stress",
+        "dry_spell"
+      ]
+    },
+
+    "summer": {
+      "months": ["march", "april", "may"],
+      "temperature_band": "hot",
+      "rainfall_level": "low_to_moderate",
+      "humidity_level": "low",
+      "common_risks": [
+        "heat_stress",
+        "drought_stress"
+      ]
+    }
+
   },
-  {
-    "district": "Balangir",
-    "avg_rainfall_mm": 1200,
-    "temperature_c": [
-      21,
-      35
-    ]
+
+  "extreme_event_patterns": {
+    "cyclone_prone": true,
+    "drought_probability": "moderate",
+    "flood_probability": "moderate_to_high"
   },
-  {
-    "district": "Balasore",
-    "avg_rainfall_mm": 1300,
-    "temperature_c": [
-      22,
-      34
-    ]
+
+  "rainfall_classification_mapping": {
+    "low": 1,
+    "low_to_moderate": 2,
+    "moderate": 3,
+    "moderate_to_high": 4,
+    "high": 5
   },
-  {
-    "district": "Bargarh",
-    "avg_rainfall_mm": 1400,
-    "temperature_c": [
-      20,
-      35
-    ]
-  },
-  {
-    "district": "Bhadrak",
-    "avg_rainfall_mm": 1500,
-    "temperature_c": [
-      21,
-      34
-    ]
-  },
-  {
-    "district": "Boudh",
-    "avg_rainfall_mm": 1600,
-    "temperature_c": [
-      22,
-      35
-    ]
-  },
-  {
-    "district": "Cuttack",
-    "avg_rainfall_mm": 1700,
-    "temperature_c": [
-      20,
-      34
-    ]
-  },
-  {
-    "district": "Deogarh",
-    "avg_rainfall_mm": 1800,
-    "temperature_c": [
-      21,
-      35
-    ]
-  },
-  {
-    "district": "Dhenkanal",
-    "avg_rainfall_mm": 1100,
-    "temperature_c": [
-      22,
-      34
-    ]
-  },
-  {
-    "district": "Gajapati",
-    "avg_rainfall_mm": 1200,
-    "temperature_c": [
-      20,
-      35
-    ]
-  },
-  {
-    "district": "Ganjam",
-    "avg_rainfall_mm": 1300,
-    "temperature_c": [
-      21,
-      34
-    ]
-  },
-  {
-    "district": "Jagatsinghpur",
-    "avg_rainfall_mm": 1400,
-    "temperature_c": [
-      22,
-      35
-    ]
-  },
-  {
-    "district": "Jajpur",
-    "avg_rainfall_mm": 1500,
-    "temperature_c": [
-      20,
-      34
-    ]
-  },
-  {
-    "district": "Jharsuguda",
-    "avg_rainfall_mm": 1600,
-    "temperature_c": [
-      21,
-      35
-    ]
-  },
-  {
-    "district": "Kalahandi",
-    "avg_rainfall_mm": 1700,
-    "temperature_c": [
-      22,
-      34
-    ]
-  },
-  {
-    "district": "Kandhamal",
-    "avg_rainfall_mm": 1800,
-    "temperature_c": [
-      20,
-      35
-    ]
-  },
-  {
-    "district": "Kendrapara",
-    "avg_rainfall_mm": 1100,
-    "temperature_c": [
-      21,
-      34
-    ]
-  },
-  {
-    "district": "Keonjhar",
-    "avg_rainfall_mm": 1200,
-    "temperature_c": [
-      22,
-      35
-    ]
-  },
-  {
-    "district": "Khordha",
-    "avg_rainfall_mm": 1300,
-    "temperature_c": [
-      20,
-      34
-    ]
-  },
-  {
-    "district": "Koraput",
-    "avg_rainfall_mm": 1400,
-    "temperature_c": [
-      21,
-      35
-    ]
-  },
-  {
-    "district": "Malkangiri",
-    "avg_rainfall_mm": 1500,
-    "temperature_c": [
-      22,
-      34
-    ]
-  },
-  {
-    "district": "Mayurbhanj",
-    "avg_rainfall_mm": 1600,
-    "temperature_c": [
-      20,
-      35
-    ]
-  },
-  {
-    "district": "Nabarangpur",
-    "avg_rainfall_mm": 1700,
-    "temperature_c": [
-      21,
-      34
-    ]
-  },
-  {
-    "district": "Nayagarh",
-    "avg_rainfall_mm": 1800,
-    "temperature_c": [
-      22,
-      35
-    ]
-  },
-  {
-    "district": "Nuapada",
-    "avg_rainfall_mm": 1100,
-    "temperature_c": [
-      20,
-      34
-    ]
-  },
-  {
-    "district": "Puri",
-    "avg_rainfall_mm": 1200,
-    "temperature_c": [
-      21,
-      35
-    ]
-  },
-  {
-    "district": "Rayagada",
-    "avg_rainfall_mm": 1300,
-    "temperature_c": [
-      22,
-      34
-    ]
-  },
-  {
-    "district": "Sambalpur",
-    "avg_rainfall_mm": 1400,
-    "temperature_c": [
-      20,
-      35
-    ]
-  },
-  {
-    "district": "Subarnapur",
-    "avg_rainfall_mm": 1500,
-    "temperature_c": [
-      21,
-      34
-    ]
-  },
-  {
-    "district": "Sundargarh",
-    "avg_rainfall_mm": 1600,
-    "temperature_c": [
-      22,
-      35
-    ]
+
+  "temperature_classification_mapping": {
+    "cool": 1,
+    "cool_to_moderate": 2,
+    "moderate": 3,
+    "moderate_to_warm": 4,
+    "warm": 5,
+    "warm_to_hot": 6,
+    "hot": 7
   }
-]
+
+}
