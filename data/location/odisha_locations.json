@@ -1,0 +1,218 @@
+{
+  "profile_id": "odisha_district",
+  "region": "odisha",
+
+  "districts": {
+
+    "Angul": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm_to_hot",
+      "land_topography": "undulating"
+    },
+
+    "Balangir": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "low_to_moderate",
+      "temperature_band": "hot",
+      "land_topography": "upland"
+    },
+
+    "Balasore": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_plain"
+    },
+
+    "Bargarh": {
+      "dominant_soil": "black_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm_to_hot",
+      "land_topography": "flat"
+    },
+
+    "Bhadrak": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_plain"
+    },
+
+    "Boudh": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "undulating"
+    },
+
+    "Cuttack": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "riverine_plain"
+    },
+
+    "Deogarh": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "moderate_to_warm",
+      "land_topography": "hilly"
+    },
+
+    "Dhenkanal": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm_to_hot",
+      "land_topography": "undulating"
+    },
+
+    "Gajapati": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "high",
+      "temperature_band": "moderate",
+      "land_topography": "hilly"
+    },
+
+    "Ganjam": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_undulating"
+    },
+
+    "Jagatsinghpur": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_plain"
+    },
+
+    "Jajpur": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "warm",
+      "land_topography": "flat"
+    },
+
+    "Jharsuguda": {
+      "dominant_soil": "black_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "hot",
+      "land_topography": "upland"
+    },
+
+    "Kalahandi": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "low_to_moderate",
+      "temperature_band": "hot",
+      "land_topography": "upland"
+    },
+
+    "Kandhamal": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "high",
+      "temperature_band": "moderate",
+      "land_topography": "hilly"
+    },
+
+    "Kendrapara": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_plain"
+    },
+
+    "Kendujhar": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "moderate_to_warm",
+      "land_topography": "hilly"
+    },
+
+    "Khordha": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "undulating"
+    },
+
+    "Koraput": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "high",
+      "temperature_band": "cool_to_moderate",
+      "land_topography": "plateau_hilly"
+    },
+
+    "Malkangiri": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "high",
+      "temperature_band": "warm",
+      "land_topography": "hilly"
+    },
+
+    "Mayurbhanj": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "moderate_to_warm",
+      "land_topography": "undulating"
+    },
+
+    "Nabarangpur": {
+      "dominant_soil": "black_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "upland"
+    },
+
+    "Nayagarh": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "undulating"
+    },
+
+    "Nuapada": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "low_to_moderate",
+      "temperature_band": "hot",
+      "land_topography": "upland"
+    },
+
+    "Puri": {
+      "dominant_soil": "alluvial",
+      "rainfall_level": "high",
+      "temperature_band": "warm",
+      "land_topography": "coastal_plain"
+    },
+
+    "Rayagada": {
+      "dominant_soil": "lateritic",
+      "rainfall_level": "high",
+      "temperature_band": "moderate",
+      "land_topography": "hilly"
+    },
+
+    "Sambalpur": {
+      "dominant_soil": "black_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm_to_hot",
+      "land_topography": "flat"
+    },
+
+    "Subarnapur": {
+      "dominant_soil": "black_soil",
+      "rainfall_level": "moderate",
+      "temperature_band": "warm",
+      "land_topography": "flat"
+    },
+
+    "Sundargarh": {
+      "dominant_soil": "red_soil",
+      "rainfall_level": "moderate_to_high",
+      "temperature_band": "moderate_to_warm",
+      "land_topography": "plateau"
+    }
+
+  }
+}
