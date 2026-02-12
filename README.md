@@ -1,5 +1,9 @@
 # AgroVision
 
+<a href="https://github.com/Ayushman-Chabri/AI_Farmer_Copilot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Ayushman-Chabri/AI_Farmer_Copilot" />
+</a>
+
 
 ## 🏗️ Project Structure
 ```bash
@@ -34,7 +38,7 @@ This project supports Mac, Windows, and Linux
 conda env create -f environment.yml
 conda activate TrithonEnv
 ```
-- Mac users (one-time setup for audio)
+- Mac users (one time setup for audio)
 ```bash
 brew install portaudio
 ```
