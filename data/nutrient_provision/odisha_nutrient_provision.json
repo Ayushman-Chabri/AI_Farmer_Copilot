@@ -1,0 +1,204 @@
+{
+  "profile_id": "odisha_nutrient_schedule",
+  "region": "odisha",
+  "unit_prices_note": "Prices in INR, approximate retail range per bag or per ton",
+
+  "crops": {
+
+    "paddy": {
+      "manure_interval_days": 25,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        {
+          "name": "Farm Yard Manure (FYM)",
+          "avg_price_per_ton": 1500
+        }
+      ],
+      "recommended_fertilizers": [
+        {
+          "name": "Urea",
+          "avg_price_per_45kg_bag": 266
+        },
+        {
+          "name": "DAP",
+          "avg_price_per_50kg_bag": 1350
+        }
+      ],
+      "affordable_arrangement": "Use composted FYM locally; apply split nitrogen doses to reduce wastage; avail subsidy via cooperative societies."
+    },
+
+    "sugarcane": {
+      "manure_interval_days": 30,
+      "fertilizer_interval_days": 45,
+      "recommended_manure": [
+        { "name": "Compost", "avg_price_per_ton": 2000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Urea", "avg_price_per_45kg_bag": 266 },
+        { "name": "Potash (MOP)", "avg_price_per_50kg_bag": 1700 }
+      ],
+      "affordable_arrangement": "Bulk purchase through FPO; integrate green manure to reduce chemical dependency."
+    },
+
+    "maize": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 25,
+      "recommended_manure": [
+        { "name": "Vermicompost", "avg_price_per_ton": 6000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Urea", "avg_price_per_45kg_bag": 266 },
+        { "name": "DAP", "avg_price_per_50kg_bag": 1350 }
+      ],
+      "affordable_arrangement": "Combine vermicompost with reduced urea dose; procure fertilizers from PACS outlets."
+    },
+
+    "mung": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "Composted FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Single Super Phosphate (SSP)", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Use crop residue composting; reduce nitrogen fertilizer since pulses fix nitrogen naturally."
+    },
+
+    "groundnut": {
+      "manure_interval_days": 25,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "Vermicompost", "avg_price_per_ton": 6000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Gypsum", "avg_price_per_50kg_bag": 350 },
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Apply gypsum during flowering; access subsidies via cooperative banks."
+    },
+
+    "sweet_potato": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 35,
+      "recommended_manure": [
+        { "name": "FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "NPK 10:26:26", "avg_price_per_50kg_bag": 1500 }
+      ],
+      "affordable_arrangement": "Use locally available compost; apply fertilizers in split doses."
+    },
+
+    "onion": {
+      "manure_interval_days": 15,
+      "fertilizer_interval_days": 20,
+      "recommended_manure": [
+        { "name": "Vermicompost", "avg_price_per_ton": 6000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Urea", "avg_price_per_45kg_bag": 266 },
+        { "name": "Potash (MOP)", "avg_price_per_50kg_bag": 1700 }
+      ],
+      "affordable_arrangement": "Use micro-dosing techniques; purchase fertilizers via DBT subsidy schemes."
+    },
+
+    "potato": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 25,
+      "recommended_manure": [
+        { "name": "Compost", "avg_price_per_ton": 2000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "DAP", "avg_price_per_50kg_bag": 1350 },
+        { "name": "MOP", "avg_price_per_50kg_bag": 1700 }
+      ],
+      "affordable_arrangement": "Apply compost during ridge formation; procure fertilizers from cooperative mandis."
+    },
+
+    "biri": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Reduce chemical nitrogen; use organic manure to cut costs."
+    },
+
+    "arhar": {
+      "manure_interval_days": 30,
+      "fertilizer_interval_days": 40,
+      "recommended_manure": [
+        { "name": "Green Manure", "avg_price_per_ton": 1200 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Incorporate green manure crop before sowing; use minimal chemical fertilizers."
+    },
+
+    "ragi": {
+      "manure_interval_days": 25,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "Urea", "avg_price_per_45kg_bag": 266 }
+      ],
+      "affordable_arrangement": "Split nitrogen application; access government subsidy fertilizers."
+    },
+
+    "kulthi": {
+      "manure_interval_days": 25,
+      "fertilizer_interval_days": 35,
+      "recommended_manure": [
+        { "name": "Compost", "avg_price_per_ton": 2000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Minimal fertilizer use due to hardy nature; prefer organic manure."
+    },
+
+    "cotton": {
+      "manure_interval_days": 30,
+      "fertilizer_interval_days": 45,
+      "recommended_manure": [
+        { "name": "FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "NPK 20:20:0", "avg_price_per_50kg_bag": 1500 }
+      ],
+      "affordable_arrangement": "Bulk purchase through FPO; apply in split stages."
+    },
+
+    "sesamum": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "Compost", "avg_price_per_ton": 2000 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Low input crop; combine compost with limited phosphorus application."
+    },
+
+    "cowpea": {
+      "manure_interval_days": 20,
+      "fertilizer_interval_days": 30,
+      "recommended_manure": [
+        { "name": "FYM", "avg_price_per_ton": 1500 }
+      ],
+      "recommended_fertilizers": [
+        { "name": "SSP", "avg_price_per_50kg_bag": 500 }
+      ],
+      "affordable_arrangement": "Nitrogen fixing crop; minimize chemical fertilizer use; prefer organic manure."
+    }
+
+  }
+}

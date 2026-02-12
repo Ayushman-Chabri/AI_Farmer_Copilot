@@ -1,15 +1,11 @@
 {
     "regions":{
         "odisha":{
+            "profile_id":"odisha",
             "display_name":"Odisha",
             "preferred_languages":["en","hi","or"],
-            "default_language":"or",
-            "datasets":{
-                "soil":"odisha_soil",
-                "weather":"odisha_weather",
-                "policies":"odisha_policies",
-                "referrals":"odisha_referrals",
-                "crops":"odisha_crops" }
+            "default_language":"or"
+            
             }
     }
 }

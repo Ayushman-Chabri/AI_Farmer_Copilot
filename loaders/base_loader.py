@@ -18,4 +18,3 @@ def load_json(relative_path):
     with open(filepath, "r", encoding="utf-8") as file:
         return json.load(file)
 
-load_json("weather/odisha_weather.json")
