@@ -1,4 +1,4 @@
-# AgroVision
+<img src="ui/images/AgroVision.png"/>
 
 <a href="https://github.com/Ayushman-Chabri/AI_Farmer_Copilot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Ayushman-Chabri/AI_Farmer_Copilot" />
@@ -8,20 +8,87 @@
 ## 🏗️ Project Structure
 ```bash
 AI_Farmer_Copilot/
-│
-├── main.py                # Entry point
-├── ui/                    # Streamlit interface
-├── vision/                # Computer vision models
-├── voice/                 # Voice processing modules
-├── llm/                   # LLM interaction
-├── pipeline/              # AI pipeline orchestration
-├── loaders/               # Data loading modules
-├── logic/                 # Core decision logic
-├── safety/                # Validation & safety checks
-├── config/                # Configuration files
-├── tests/                 # Test cases
-├── environment.yml        # Conda environment
-└── requirements.txt       # pip dependencies
+|
+├── 📁 config
+│   └── 🐍 settings.py
+├── 📁 data
+│   ├── 📁 crops
+│   │   └── ⚙️ odisha_crops.json
+│   ├── 📁 diseases
+│   │   └── ⚙️ diseases.json
+│   ├── 📁 metadata
+│   │   └── ⚙️ regions.json
+│   ├── 📁 policies
+│   │   └── ⚙️ odisha_policies.json
+│   ├── 📁 referrals
+│   │   └── ⚙️ odisha_referrals.json
+│   ├── 📁 soil
+│   │   └── ⚙️ odisha_soil.json
+│   ├── 📁 techniques
+│   │   └── ⚙️ techniques.json
+│   └── 📁 weather
+│       └── ⚙️ odisha_weather.json
+├── 📁 llm
+│   ├── 🐍 __init__.py
+│   ├── 🐍 gemma_loader.py
+│   ├── 🐍 generator.py
+│   ├── 🐍 prompt_templates.py
+│   └── 🐍 response_formatter.py
+├── 📁 loaders
+│   ├── 🐍 __init__.py
+│   ├── 🐍 base_loader.py
+│   ├── 🐍 policy_loader.py
+│   ├── 🐍 region_loader.py
+│   ├── 🐍 soil_loader.py
+│   ├── 🐍 validation.py
+│   └── 🐍 weather_loader.py
+├── 📁 logic
+│   ├── 🐍 __init__.py
+│   ├── 🐍 context_builder.py
+│   ├── 🐍 module_selector.py
+│   ├── 🐍 risk_analysis.py
+│   └── 🐍 rules.py
+├── 📁 pipeline
+│   ├── 🐍 __init__.py
+│   ├── 🐍 orchestrator.py
+│   └── 🐍 state.py
+├── 📁 safety
+│   ├── 🐍 __init__.py
+│   ├── 🐍 fallback.py
+│   ├── 🐍 referral_logic.py
+│   └── 🐍 uncertainty.py
+├── 📁 tests
+│   ├── 🐍 test_loaders.py
+│   ├── 🐍 test_logic.py
+│   └── 🐍 test_pipeline.py
+├── 📁 ui
+│   ├── 📁 images
+│   │   ├── 🖼️ AgroVision.png
+│   │   └── 🖼️ Samriddhi.png
+│   ├── 📁 screens
+│   │   ├── 🐍 input.py
+│   │   ├── 🐍 processing.py
+│   │   ├── 🐍 results.py
+│   │   └── 🐍 welcome.py
+│   ├── 🐍 __init__.py
+│   ├── 🐍 app.py
+│   └── 🐍 ui_utils.py
+├── 📁 vision
+│   ├── 🐍 __init__.py
+│   ├── 🐍 confidence.py
+│   ├── 🐍 infer.py
+│   ├── 🐍 model.py
+│   └── 🐍 preprocess.py
+├── 📁 voice
+│   ├── 🐍 __init__.py
+│   ├── 🐍 audio_utils.py
+│   ├── 🐍 stt.py
+│   └── 🐍 tts.py
+├── 📝 README.md
+├── 📕 conda-cheatsheet.pdf
+├── ⚙️ environment.yml
+├── 🐍 main.py
+└── 📄 requirements.txt
 ```
 
 ## ⚙️ Installation & Setup
@@ -58,10 +125,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Features
-- Voice enabled AI assistant
-- Crop & farming advisory
-- Image based plant analysis
-- LLM powered recommendations
-- Safety & validation layer
-- Modular AI pipeline architecture
+## 🧠 Features
+- 🎙️ Voice-enabled AI assistant
+- 🌱 Crop & farming advisory
+- 🖼️ Image-based plant analysis
+- 🤖 LLM-powered recommendations
+- 🛡️ Safety & validation layer
+- 🧩 Modular AI pipeline architecture
