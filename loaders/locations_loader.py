@@ -1,5 +1,6 @@
-import loaders.base_loader
-from base_loader import load_json
+
+from loaders.base_loader import load_json
+
 def load_locations_data(region):
     '''
     Docstring for load_locations_data

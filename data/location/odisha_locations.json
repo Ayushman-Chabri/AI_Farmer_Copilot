@@ -6,7 +6,11 @@
 
     "Angul": {
       "dominant_soil": "red_soil",
-      "rainfall_level": "moderate",
+      "rainfall_level": {
+        "Kharif":"moderate",
+        "Rabi":"low",
+        "Zaid":"low"
+      },
       "temperature_band": "warm_to_hot",
       "land_topography": "undulating"
     },

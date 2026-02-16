@@ -1,0 +1,12 @@
+from loaders.base_loader import load_json, DATA_FOLDER
+from loaders.crop_loader import load_crop_data
+from loaders.disease_loader import load_disease_data
+from loaders.locations_loader import load_locations_data
+from loaders.nutrient_provision_loader import load_nutrient_provision_data
+from loaders.policy_loader import load_policy_data
+from loaders.prices_loader import load_prices_data
+from loaders.referral_loader import load_referral_data
+from loaders.region_loader import load_region_data
+from loaders.soil_loader import load_soil_data
+from loaders.technique_loader import load_technique_data
+from loaders.weather_loader import load_weather_data

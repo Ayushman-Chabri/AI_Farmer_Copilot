@@ -18,7 +18,7 @@
     "suitable_soils": ["alluvial","loamy"],
     "rainfall_range":"moderate_to_high",
     "temperature_pref":"warm",
-    "season": ["kharif","annual"],
+    "month": ["jan","feb","mar"],
     "topography":["flat"],
     "additional":["water_stress","nutrient_depletion"]
 
