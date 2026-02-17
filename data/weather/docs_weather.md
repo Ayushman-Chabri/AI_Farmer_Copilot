@@ -73,7 +73,9 @@ rainfall_classification_mapping{
     …
 }
 ### Temperature Classification Mapping
+```
 Maps textual temperature bands to numerical values.
+```python
 temperature_classification_mapping{
     …
 }
