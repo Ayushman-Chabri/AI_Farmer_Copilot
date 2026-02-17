@@ -1,30 +1,90 @@
-**The Folder Structure**
-*techniques*-: This database is used to store the cropping techniques that can produce good yield in the following format-:
-    profile_id    #Used as the system id
-    techniques{
-        crop name{
-            {
-                Parameter                     Key                  Type                   Example 
-                System id for technique       technique_id         String                 technique_id:"alternate_wetting_drying"
-                Display name                  display_name         String                 display_name:"Alternate Wetting and Drying"
-                When to use                   use_when             List                   use_when:["water_scarcity","excess-water_retention"]
-                Purpose                       purpose              String                 purpose:"Optimize water usage and reduce waterlogging risk"
-                Whose risk is reduced         risk_reduction       List                   risk_reduction: ["fungal_disease", "nutrient_leaching"]
-            }
-            {
-                Same set of values as above
-            }
+# 📁 Dataset Structure: `techniques`
+
+## 📌 Overview
+The **`techniques`** dataset stores recommended cropping and farming techniques that help farmers achieve better yield and reduce risks.
+
+Each technique is associated with a specific crop and provides guidance on when and why it should be used.  
+This dataset will be used by the AI system to recommend preventive and corrective farming methods.
+
+---
+
+## 🗂️ Structure
+```python
+profile_id      # System ID
+
+techniques{
+    crop_name{
+        {
+            technique_id: String
+            display_name: String
+            use_when: List
+            purpose: String
+            risk_reduction: List
+        },
+        {
+            # Same structure repeated
         }
     }
+}
+```
+---
 
-    Purpose-: In the final model this techniques file will be used once after pre-cropping 
-    discussion(just before the farmer is about to sow the seeds) so that the farmer can 
-    prevent risks from the very beginning. Then this can be used repeatedly during the cropping
-    period whenever the farmer highlights some issue. Our computer vision model would
-    identify the issue and our model will suggest remedies from the techniques folder. Here each
-    technique is associated with a crop and hence it is not independent
+## 📊 Parameters
 
-    Demo Constraints-: For the purpose of demo we have taken only 2 techniques per crop
+| Parameter                   | Key              | Type   | Example |
+|-----------------------------|------------------|--------|--------|
+| System ID for technique     | `technique_id`   | String | `"alternate_wetting_drying"` |
+| Display Name                | `display_name`   | String | `"Alternate Wetting and Drying"` |
+| When to use                 | `use_when`       | List   | `["water_scarcity", "excess_water_retention"]` |
+| Purpose                     | `purpose`        | String | `"Optimize water usage and reduce waterlogging risk"` |
+| Risk reduction              | `risk_reduction` | List   | `["fungal_disease", "nutrient_leaching"]` |
 
-    Musings-:
-    (12/02/2026)-:(Ayushman Chabri) The musings are same as the purpose
+Additional field:
+
+| Field        | Description |
+|-------------|-------------|
+| `profile_id` | System identifier for dataset |
+
+---
+
+## 🎯 Purpose
+
+In the final model, the **techniques dataset** will be used at multiple stages of farming to guide farmers toward better yield and risk prevention.
+
+### 🌱 Pre-Cropping Stage
+- Used after initial crop planning discussion  
+- Suggest preventive techniques before sowing  
+- Reduce risks from the beginning of cultivation  
+
+### 🌾 Crop Growth Stage
+- Used repeatedly during crop growth  
+- Activated when farmer reports an issue  
+- Integrated with computer vision model:
+  - Detect disease or crop issue  
+  - Suggest relevant techniques as remedy  
+
+### 🧠 Smart Guidance
+Each technique is:
+- Crop-specific  
+- Risk-specific  
+- Situation-aware  
+
+This dataset is **crop-referenced** and not independent.  
+It must always be used with crop context.
+
+---
+
+## ⚙️ Demo Constraints
+
+For demonstration purposes:
+
+- Only **2 techniques per crop** will be included
+- Limited crops will be supported
+- Simplified use-case mapping will be used
+
+---
+
+## 🧠 Musings
+
+**(12/02/2026 — Ayushman Chabri)**  
+Musings same as Purpose.

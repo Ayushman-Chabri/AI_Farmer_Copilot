@@ -1,19 +1,72 @@
-**The Folder Structure**
-*diseases*-: This database stores information about all crop diseases in the following format-:
-    crop_name  #This isn't a key for a string but key to a list
-        Parameter                Key
-        Disease ID               disease_id
-        Name of disease          display_name
-        Causing agent            disease_type
-        Favorable conditions     favorable_conditions
-        Early symptoms           early_symptoms
-        Progression severity     severity_progression
-        Risks                    associated_risks
-    
-    Purpose-: In the final model this will be used alongside computer vision to predict the disease and suggest further steps. This data set is defined with respect to a crop type and is not directly passed as an input by the user but is instead inferred by our model.So it is not completely independent
+# 🦠 Disease Database Structure
 
-    Demo Constraints-: For the purpose of demo, we are taking only 2 diseases per crop
+## 📁 Folder: `Diseases`
 
-    Musings-: 
-    (11/02/2026)-: As per my(Ayushman Chabri) current estimation in the computer vision model, we might have one aspect or layer to recognize the crop and another aspect/layer to  recognize the symptoms. Based on that our model may ask the user about favorable conditions or infer it from stored data(we might think about it later) and thereafter it can predict the disease category. Each layer would add some confidence to the disease type and based on it we can either suggest referral or further steps
+This database stores structured information about all crop diseases.
 
+**Note:**  
+`crop_name` is **not a simple string key** but a key mapped to a **list of diseases associated with that crop**.
+
+Each disease entry follows the format below:
+
+| Parameter                | Key                     |
+|--------------------------|-------------------------|
+| Disease ID               | `disease_id`            |
+| Name of Disease          | `display_name`          |
+| Causing Agent            | `disease_type`          |
+| Favorable Conditions     | `favorable_conditions`  |
+| Early Symptoms           | `early_symptoms`        |
+| Progression Severity     | `severity_progression`  |
+| Risks                    | `associated_risks`      |
+
+---
+
+## 🎯 Purpose
+
+In the final model, this database will be used alongside the **computer vision system** to:
+
+- Predict crop diseases from visual input (leaf, stem, fruit images).
+- Suggest next steps and preventive measures.
+- Provide contextual disease information.
+
+Key Characteristics:
+
+- This dataset is defined **with respect to crop type**.
+- It is **not directly provided by the user**.
+- The model will **infer crop type and disease** using computer vision and stored data.
+- Therefore, this dataset is **not completely independent** and works in combination with other modules.
+
+---
+
+## ⚙️ Demo Constraints
+
+For demonstration purposes:
+
+- Only **2 diseases per crop** will be included.
+- This keeps inference simple and fast for demo presentation.
+
+---
+
+## 💡 Musings & Model Vision
+
+**(12/02/2026 — Ayushman Chabri)**  
+
+Current conceptual approach for the computer vision model:
+
+1. Multi-layer Recognition System:
+   - **Layer 1:** Recognize crop type  
+   - **Layer 2:** Recognize visible symptoms  
+
+2. After crop and symptoms detection:
+   - Model may ask user about **favorable environmental conditions**  
+   - Or infer them from stored environmental/location data *(to be explored later)*  
+
+3. Disease Prediction Logic:
+   - Each recognition layer contributes a **confidence score**
+   - Combined confidence determines probable disease
+   - Based on confidence level:
+     - High confidence → Suggest treatment/prevention steps  
+     - Medium confidence → Ask follow-up questions  
+     - Low confidence → Recommend expert/agriculture officer referral  
+
+This layered approach allows the system to act as a **practical AI farming assistant** rather than just a static classifier.

@@ -1,32 +1,90 @@
-**The Folder Structure**
-*policies*-: This is the database that stores the national and regional policies for helping the farmers in the following format-:
-national_policies.json
-    profile_id    #System id
+# 📁 Dataset Structure: `policies`
+
+## 📌 Overview
+The **`policies`** dataset stores national and regional government policies designed to support farmers.  
+This dataset enables the AI system to recommend relevant schemes and policies to farmers at different stages of farming.
+
+The folder contains two primary files:
+
+- `national_policies.json`
+- `odisha_policies.json` (example for regional/state policies)
+
+---
+
+## 🗂️ File Structure
+
+### 🌐 `national_policies.json`
+
+**Note:**  
+`profile_id` is **System ID for national policies**.
+```python
     policies[
-        Parameter                   Key              Type                  Example
-        Policy name(System id)      policy_id        String                policy_id: "pm_kisan_samman_nidhi"
-        Policy name(display)        display_name     String                display_name: "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)"
-        Category                    category         String                category: "Crop Insurance"
-        Description                 description      String                description: "Provides direct income support to small and marginal farmers to help meet agricultural and domestic needs."
-        Benefits                    benefits         List                  benefits: ["₹6,000 per year paid in three equal installments","Cash transfers directly to farmer bank accounts"]
-        Eligibility                 eligibility      List                  eligibility: ["All small and marginal landholding farmers","Must have linked bank account and Aadhaar"]
-        How to Apply?               application      String                application: "Apply on PM-KISAN portal or through Common Service Centres"
-    ]
-odisha_policies.json
-    profile_id       #System id
-    region           #region selector
-    policies[
-        #Same structure as national_policy.json
-    ]
+        policy{
+        policy_id: String
+        display_name: String
+        category: String
+        description: String
+        benefits: List
+        eligibility: List
+        application: String
+    }
+]
+```
 
-Purpose-: In our final model the policies folder will be used to guide in all stage of production
-During precropping(just before the farmer sows the seeds) the system would evaluate the risk
-and investment of the farmer to recommend insurance policies and easy money schemes
-After sowing, our model can help with schemes related to irrigation,fertilizers and diseases
-Post cropping our model may help with getting fair prices for the crops. Policies are also region specific and
-not independent
+---
 
-Demo Constraints-:For the purpose of demo we are taking only 5 national schemes and 10 state schemes
+## 📊 Policy Parameters
 
-Musings-:
-(12/02/2026)-: (Ayushman Chabri) Musings same as purpose
+| Parameter                  | Key            | Type   | Example |
+|----------------------------|---------------|--------|--------|
+| Policy name (System ID)    | `policy_id`   | String | `"pm_kisan_samman_nidhi"` |
+| Policy name (Display)      | `display_name`| String | `"Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)"` |
+| Category                   | `category`    | String | `"Crop Insurance"` |
+| Description                | `description` | String | `"Provides direct income support to small and marginal farmers to help meet agricultural and domestic needs."` |
+| Benefits                   | `benefits`    | List   | `["₹6,000 per year paid in three equal installments", "Cash transfers directly to farmer bank accounts"]` |
+| Eligibility                | `eligibility` | List   | `["All small and marginal landholding farmers", "Must have linked bank account and Aadhaar"]` |
+| How to Apply?              | `application` | String | `"Apply on PM-KISAN portal or through Common Service Centres"` |
+
+---
+
+## 🎯 Purpose
+
+In the final model, the **policies folder** will guide the system at every stage of agricultural production:
+
+### 🌱 Pre-Cropping Stage
+- Evaluate farmer risk and investment capacity  
+- Recommend:
+  - Insurance schemes  
+  - Subsidy programs  
+  - Financial support schemes  
+
+### 🌾 Post-Sowing Stage
+- Suggest policies for:
+  - Irrigation support  
+  - Fertilizer subsidies  
+  - Disease protection schemes  
+
+### 🌽 Post-Harvest Stage
+- Help farmers:
+  - Get fair crop prices  
+  - Access procurement schemes  
+  - Find selling and storage support policies  
+
+Policies are **region-specific** and must be matched with the farmer's state and district.
+
+---
+
+## ⚙️ Demo Constraints
+
+For demonstration purposes:
+
+- Only **5 national schemes** will be included
+- Only **10 state schemes** will be included
+- Regional focus will be limited (example: Odisha)
+
+---
+
+## 🧠 Musings
+
+**(12/02/2026 — Ayushman Chabri)**  
+Musings same as Purpose.

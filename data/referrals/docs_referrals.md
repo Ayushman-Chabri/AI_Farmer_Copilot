@@ -1,23 +1,90 @@
-**The Folder Structure**
-*referrals*-: This is the database for region specific help line contacts stored in the following manner-:
-    profile_id      #System id
-    region          #region identification
-    referrals[
-        {
-            Parameter                 Key                Type                   Example
-            System Id for referral    referral_id        String                 referral_id:"agriculture_dept_odisha"
-            Display name              display_name       String                 display_name: "Odisha Agriculture Department"
-            Contact number            contact            String                 contact:"1551"
-            Type                      type               String                 type: "state_animal_fisheries_support"
-            Purpose                   purpose            String                 purpose: "Support for fisheries, livestock and poultry farmers"
-        }
-    ]
+# 📁 Dataset Structure: `referrals`
 
-    Purpose-: In the final model the referral phase will be used in all the three stages
-    This will work largely in co-ordination with policies folder. This is also a region referenced
-    file and hence is not independent
+## 📌 Overview
+The **`referrals`** dataset stores region-specific helpline and support contacts for farmers.  
+It enables the system to connect farmers with the correct government departments, support centers, or emergency assistance based on their needs and region.
 
-    Demo Constraint-: For the sake of demo, we have taken only 10 referrals per region
+This dataset works closely with the **policies** dataset and is used across all stages of farming.
 
-    Musings-:
-    (12/02/2026)-: (Ayushman Chabri)-: Musings same as purpose
+---
+
+## 🗂️ Structure
+```python
+profile_id      # System ID
+region          # Region identification (e.g., odisha)
+
+referrals[
+    {
+        referral_id: String
+        display_name: String
+        contact: String
+        type: String
+        purpose: String
+    }
+]
+```
+---
+
+## 📊 Parameters
+
+| Parameter                    | Key           | Type   | Example |
+|-----------------------------|--------------|--------|--------|
+| System ID for referral      | `referral_id` | String | `"agriculture_dept_odisha"` |
+| Display Name                | `display_name`| String | `"Odisha Agriculture Department"` |
+| Contact Number              | `contact`     | String | `"1551"` |
+| Type                        | `type`        | String | `"state_animal_fisheries_support"` |
+| Purpose                     | `purpose`     | String | `"Support for fisheries, livestock and poultry farmers"` |
+
+Additional fields:
+
+| Field        | Description |
+|-------------|-------------|
+| `profile_id` | Stores system ID |
+| `region`     | Region associated with referral |
+
+---
+
+## 🎯 Purpose
+
+In the final model, the **referral phase** will be used across all three farming stages:
+
+### 🌱 Pre-Cropping Stage
+- Connect farmers with:
+  - Financial support offices  
+  - Insurance providers  
+  - Seed and subsidy centers  
+
+### 🌾 Crop Growth Stage
+- Provide contacts for:
+  - Disease and pest support  
+  - Irrigation assistance  
+  - Veterinary and fisheries support  
+
+### 🌽 Post-Harvest Stage
+- Help farmers reach:
+  - Procurement centers  
+  - Storage facilities  
+  - Market and pricing support  
+  - Government purchase agencies  
+
+This dataset will work in coordination with the **policies dataset** to ensure farmers can directly access relevant support.
+
+The dataset is **region-referenced** and must be used with region context.  
+It is **not an independent dataset**.
+
+---
+
+## ⚙️ Demo Constraints
+
+For demonstration purposes:
+
+- Only **10 referrals per region** will be included
+- Limited to selected regions (example: Odisha)
+- Contacts will represent key essential services only
+
+---
+
+## 🧠 Musings
+
+**(12/02/2026 — Ayushman Chabri)**  
+Musings same as Purpose.
