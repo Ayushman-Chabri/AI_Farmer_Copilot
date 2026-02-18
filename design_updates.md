@@ -1,17 +1,15 @@
-**System Flow (Designed by Ayushman)**-:
-    0. Access region
-    [Edge Case-:Border District -> Handling-: Focus only on central areas during demo]
-        0.1> Set Default Language
-        0.2> Set District  (Location is hardcoded/GPS use)
-        0.3> Initialize voice model and greet(In all preferred languages and proceed as per farmer input)
-        0.4> Give options for Modes(pre-cropping/cropping/post-cropping)
-        **If precropping**-:
-        1. Collect all inputs
-            1.1> Collect crop names
-            [Edge Cases-:
-            Crop is not available in the database | Handling-> Only focus on crops that are present during demo
-            User's audio is not comprehendable-: Ask to repeat
-            ]
+**System Flow (Designed by Ayushman)**-: 0. Access region
+[Edge Case-:Border District -> Handling-: Focus only on central areas during demo]
+0.1> Set Default Language
+0.2> Set District (Location is hardcoded/GPS use)
+0.3> Initialize voice model and greet(In all preferred languages and proceed as per farmer input)
+0.4> Give options for Modes(pre-cropping/cropping/post-cropping)
+**If precropping**-: 1. Collect all inputs
+1.1> Collect crop names
+[Edge Cases-:
+Crop is not available in the database | Handling-> Only focus on crops that are present during demo
+User's audio is not comprehendable-: Ask to repeat
+]
 
             1.2> Collect Land area
             [Edge Cases-:
@@ -19,7 +17,7 @@
             If land area not provided or couldn't be extracted-> Ask to repeat
             ]
             1.3> Collect Investment (Past loans/debts, New fixed capital, purchase of seeds)
-            [Edge Cases-: 
+            [Edge Cases-:
             If data not provided or missing-: Ask to repeat
             ]
             1.4> Collect when are you planning to crop (Month)
@@ -34,17 +32,17 @@
         2. Based on crop name
             2.1> Access the Crop Database
 
-                [Algorithm-: 
-                crop_data=crop_loader.py 
+                [Algorithm-:
+                crop_data=crop_loader.py
                 ]
 
             2.2> Access the location Database
 
                 [Algorithm-:
-                crop_data=crop_loader.py 
+                crop_data=crop_loader.py
                 location_data=locations_loader.py]
 
-            Match soil type 
+            Match soil type
                -If Matched-: Confidence unchanged
                -If not matched-: Confidence lowered by w1
                               -: Solution-:
@@ -77,13 +75,13 @@
                                -: Solution-: Refer to techniques
             Check for threats through risk and match with season-:        *Add seasonal risks to locations*
                 -If risks exist-: Confidence lowered by w4
-                               -: Refer to insurance policies    
+                               -: Refer to insurance policies
                 -If not-: Confidence is unchanged
-            
-        
+
+
         3. Based on yield of crop per unit area and variety of seeds      *Add this detail to soil database*
            3.1 Multiply with Land area and find revenue
-        
+
         4. Subtract the investment from revenue and calculate net value
            4.1> If net value>0:
                         Indicate Profit
@@ -92,7 +90,7 @@
         5.Suggest Policies
             5.1> If profit, suggest freeloader policies  and insurance policies only and recommend referral (for these policies)
             5.2> If loss, suggest special policies in addition to 5.1 if any and recommend referral( for freeloader policies and overall advice)
-        
+
         ** If cropping **-:
         1. Ask the farmer about problem
         2. If the problem is-:
@@ -105,7 +103,7 @@
                                                           Suggest remedies and referral
                                            If not identified:
                                                           Suggest referrals only
-        
+
         ** If post cropping **-:
         1. Ask the farmer his yield
         2. Ask the farmer about his further decisions(whether wants to sale, or is unsatisfied with yield)
