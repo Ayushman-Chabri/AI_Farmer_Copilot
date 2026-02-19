@@ -36,8 +36,8 @@ AI_Farmer_Copilot/
 
 ### 1️⃣ Clone repository
 ```bash
-git clone https://github.com/Ayushman-Chabri/AI_Farmer_Copilot.git  
-cd AI_Farmer_Copilot
+git clone https://github.com/Ayushman-Chabri/AgroVision.git  
+cd Samriddhi
 ```
 ### 2️⃣ Create environment (Recommended: Conda)
 This project supports Mac, Windows, Linux
