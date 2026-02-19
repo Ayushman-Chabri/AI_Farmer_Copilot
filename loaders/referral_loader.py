@@ -5,4 +5,4 @@ def load_referral_data(region):
     Method to load referral data
     '''
     
-    return load_json(f"referrals/{region}_referrals.json")
+    return load_json(f"referrals/{region.lower()}_referrals.json")

@@ -6,6 +6,6 @@ def load_crop_data():
     '''
     
     
-    return load_json("crop/crops.json")
+    return load_json("crops/crops.json")
 
 

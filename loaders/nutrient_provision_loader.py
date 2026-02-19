@@ -1,5 +1,4 @@
-import loaders.base_loader
-from base_loader import load_json
+from loaders.base_loader import load_json
 
 def load_nutrient_provision_data(region):
     '''
@@ -10,4 +9,5 @@ def load_nutrient_provision_data(region):
 
     '''
     return load_json(f"nutrient_provision/{region.lower()}_nutrient_provision.json")
+
     

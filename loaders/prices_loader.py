@@ -1,5 +1,4 @@
-import loaders.base_loader
-from base_loader import load_json
+from loaders.base_loader import load_json
 
 def load_prices_data(region):
     '''
