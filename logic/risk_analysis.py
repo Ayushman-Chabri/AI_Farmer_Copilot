@@ -1,10 +1,3 @@
-"""
-risk_analysis.py
-
-Core Layer 2 engine:
-Evaluates crop suitability and generates confidence + suggestions.
-"""
-
 from logic.rules import (
     INITIAL_CONFIDENCE,
     W_SOIL_MISMATCH,

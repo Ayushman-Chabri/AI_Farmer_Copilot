@@ -113,3 +113,24 @@
                  Recommend suitable referrals and policies
            If wants to sale:
                  Recommend suitable referrals and policies
+----------------------------------------
+//Farmer chooses: Pre-Cropping
+Then system asks:
+Crop name
+Month of sowing
+Land area
+Budget
+Seed type
+
+//Farmer chooses: Cropping
+Then system asks:
+Crop already planted?
+Days after sowing?
+Any visible symptoms?
+Upload photo (vision)
+
+//Farmer chooses: Post-Cropping
+Then system asks:
+Yield achieved
+Wants to sell?
+Storage available?

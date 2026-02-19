@@ -1,16 +1,6 @@
-"""
-module_selector.py
-
-Selects which module should run based on farmer mode.
-
-Vision module is delayed until sowing days pass.
-"""
-
-
 def select_mode(mode: str):
-    """
-    Returns active module name.
-    """
+    
+    #Returns active module name.
 
     mode = mode.lower()
 

@@ -1,12 +1,3 @@
-"""
-context_builder.py
-
-Builds the full environment context for decision-making.
-
-Layer 2 should NOT directly depend on UI.
-It should only take inputs + datasets and return outputs.
-"""
-
 from loaders.crop_loader import load_crop_data
 from loaders.locations_loader import load_locations_data
 from loaders.soil_loader import load_soil_data
@@ -19,10 +10,7 @@ from loaders.nutrient_provision_loader import load_nutrient_provision_data
 
 
 def build_context(region: str):
-    """
-    Loads everything needed for Layer 2 reasoning.
-
-    Returns:
+    """Returns:
         dict containing all datasets
     """
 
