@@ -1,9 +1,9 @@
-# 🌾 AgroVision — AI Farmer Copilot
+# 🌾 AgroVision
 
 <img src="ui/images/AgroVision.png"/>
 
-<a href="https://github.com/Ayushman-Chabri/AI_Farmer_Copilot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ayushman-Chabri/AI_Farmer_Copilot" />
+<a href="https://github.com/Ayushman-Chabri/AgroVision/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Ayushman-Chabri/AgroVision" />
 </a>
 
 AgroVision is an **AI-powered smart farming assistant** designed to help farmers with crop guidance, disease detection, weather insights, and voice-based support.
@@ -12,7 +12,7 @@ Built using **LLMs, Computer Vision, and Voice AI** to support rural and smart a
 
 ## 🏗️ Project Structure
 ```bash
-AI_Farmer_Copilot/
+Samriddhi/
 |
 ├── 📁 config/
 ├── 📁 data/
